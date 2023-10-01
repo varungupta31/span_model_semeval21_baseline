@@ -13,3 +13,6 @@ task2_prediction.txt
 /tests/task2_prediction_file.txt
 /tsd_train.csv
 /analyse.py
+.vscode/
+wandb/
+*.ipynb

@@ -29,7 +29,8 @@ from pprint import pprint
 
 # NOTE: this directory is *not* part of the installation, you'll have to get the
 # Propaganda Techniques Corpus yourself.
-TRAINING_ARTICLES_2020_DIR = '../semeval2020/propaganda_detection/datasets/train-articles'
+# TRAINING_ARTICLES_2020_DIR = '../semeval2020/propaganda_detection/datasets/train-articles'
+TRAINING_ARTICLES_2020_DIR = "/ssd_scratch/cvit/varun/SEMEVAL-2021-task6-corpus/data/train-articles"
 
 LABELS_2021 = [
     "Appeal to authority",
@@ -264,6 +265,7 @@ def get_model(encoder_decoder_type, name_or_path, split_in_sentences=False, args
 
 def file_exists_or_geturl_and_save(filename):
     if not os.path.exists(filename):
+        print(f"File {filename} does not exist, downloading it from github")
         url = f'https://raw.githubusercontent.com/di-dimitrov/SEMEVAL-2021-task6-corpus/main/data/{filename}'
         download = requests.get(url).content.decode('utf-8')
         with open(filename, 'w') as f:
@@ -282,8 +284,9 @@ def generate_pickle_files_with_data():
 
 
 if __name__ == '__main__':
+    #2020 refers to the PTC corpus, which is not available anymore.
     WITH_TRAINING_2020 = False
-    WITH_TRAINING_2021 = False
+    WITH_TRAINING_2021 = True
     if WITH_TRAINING_2020:
         args = dict(
             num_train_epochs=30,
@@ -297,7 +300,7 @@ if __name__ == '__main__':
         args = dict(
             num_train_epochs=30,
             overwrite_output_dir=True,
-            output_dir='memes_2021'
+            output_dir='/ssd_scratch/cvit/varun/models_trained/'
         )
         if WITH_TRAINING_2020:
             model_path = 'ptc_2020'
@@ -318,7 +321,10 @@ if __name__ == '__main__':
     )
     model = get_model('bart', 'memes_2021', split_in_sentences=True, args=generation_args)
 
+    #training data filename.
     test_set_task2_filename = 'test_set_task2.txt'
+
+    #checks if the file exists and downloads it if it doesn't.
     file_exists_or_geturl_and_save(test_set_task2_filename)
 
     test_data_2021 = loadJSON2021(test_set_task2_filename)
