@@ -1,0 +1,1500 @@
+,id,input_text,target_text,raw_prediction,processed_prediction
+0,705_batch_2,"The Democrats New America
+"," [i-15]  [i-10] The Democrats New America [o-15]  [o-10] 
+",The Democrats New America ,"{'id': '<UNKNOWN>', 'article': 'The Democrats New America\n', 'fragments': []}"
+1,706_batch_2,"WE ARE AT WAR!
+
+There is a complex assault on our presidential election
+with all the multifaceted tentacles of a terrorist organization and operation
+
+2020
+TERRORISM
+"," [i-1] WE ARE AT  [i-8] WAR [o-8] !
+
+There is a complex  [i-8] assault on our presidential election [o-8] 
+with all the  [i-8]  [i-10] multifaceted tentacles [o-10]  of a terrorist organization and operation [o-8]  [o-1] 
+
+2020
+ [i-8] TERRORISM [o-8] 
+","WE ARE AT WAR!
+
+There is a complex assault on our presidential election
+with all the multifaceted tentacles of a terrorist organization and operation 
+
+2020
+TERRORISM
+
+","{'id': '<UNKNOWN>', 'article': 'WE ARE AT WAR!\n\nThere is a complex assault on our presidential election\nwith all the multifaceted tentacles of a terrorist organization and operation\n\n2020\nTERRORISM\n', 'fragments': []}"
+2,710_batch_2,"KILLED HIMSELF IN PRISON
+
+WON AN HONEST ELECTION
+"," [i-8] KILLED HIMSELF IN PRISON [o-8] 
+
+WON AN  [i-10] HONEST ELECTION [o-10] 
+"," [i-8]  KILLED HIMSELF IN PRISON
+WON AN HONEST ELECTION
+
+","{'id': '<UNKNOWN>', 'article': 'KILLED HIMSELF IN PRISON\n\nWON AN HONEST ELECTION\n', 'fragments': []}"
+3,713_batch_2,"I will never concede!
+
+NO WAY IN HELL BIDEN WON!
+","I will never concede!
+
+ [i-8]  [i-5] NO WAY IN HELL [o-8]  BIDEN WON! [o-5] 
+","  I will never concede!
+NO WAY IN HELL BIDEN WON!
+
+","{'id': '<UNKNOWN>', 'article': 'I will never concede!\n\nNO WAY IN HELL BIDEN WON!\n', 'fragments': []}"
+4,715_batch_2,"TRYING TO FIGURE OUT HOW BIDEN WON A RECORD LOW OF ONLY 16.7% OF ALL U.S. COUNTIES
+
+YET SUPPOSEDLY WON THE ELECTION WITH THE MOST VOTES IN HISTORY
+
+"," [i-4] TRYING TO FIGURE OUT HOW BIDEN WON A RECORD LOW OF ONLY 16.7% OF ALL U.S. COUNTIES
+
+YET SUPPOSEDLY WON THE ELECTION WITH THE MOST VOTES IN HISTORY [o-4] 
+
+","TRYING TO FIGURE OUT HOW BIDEN WON A RECORD LOW OF ONLY 16.7% OF ALL U.S. COUNTIES
+YET SUPPOSEDLY WON THE ELECTION WITH THE MOST VOTES IN HISTORY ","{'id': '<UNKNOWN>', 'article': 'TRYING TO FIGURE OUT HOW BIDEN WON A RECORD LOW OF ONLY 16.7% OF ALL U.S. COUNTIES\n\nYET SUPPOSEDLY WON THE ELECTION WITH THE MOST VOTES IN HISTORY\n\n', 'fragments': []}"
+5,716_batch_2,"HYPOCRISY MUCH?!
+Macy's Thanksgiving Day Parade to March On Despite Pandemic
+
+Businesses Are Closing Permanently, People Are Losing Everything!
+Let's Have A Parade!
+"," [i-8]  [i-16] HYPOCRISY [o-8]  MUCH?!
+ [i-18] Macy's Thanksgiving Day Parade to March On Despite Pandemic
+
+Businesses Are Closing Permanently, People Are Losing Everything! [o-18]  [o-16] 
+Let's Have A Parade!
+","HYPOCRISY MUCH?!
+Macy's Thanksgiving Day Parade to March On Despite Pandemic
+Businesses Are Closing Permanently, People Are Losing Everything!
+
+Let's Have A Parade!
+","{'id': '<UNKNOWN>', 'article': ""HYPOCRISY MUCH?!\nMacy's Thanksgiving Day Parade to March On Despite Pandemic\n\nBusinesses Are Closing Permanently, People Are Losing Everything!\nLet's Have A Parade!\n"", 'fragments': []}"
+6,720_batch_2,WHEN TRUMP IS REELECTED THERE WILL BE BLOOD!,WHEN TRUMP IS REELECTED [i-8]  [i-1]  THERE WILL BE BLOOD [o-8]  [o-1] !,WHEN TRUMP IS REELECTED THERE WILL BE BLOOD!,"{'id': '<UNKNOWN>', 'article': 'WHEN TRUMP IS REELECTED THERE WILL BE BLOOD!', 'fragments': []}"
+7,722_batch_2,"People are so quick to forget.
+
+Wedding bands that were removed from Holocaust victims prior to being executed, 1945. 
+Each ring represents a destroyed family. 
+Never forget, Nazis tore down statues.
+Banned free speech.
+Blamed economic hardships on one group of people. Instituted gun control.
+Sound Familiar?","People are so quick to forget.
+
+Wedding bands that were removed from  [i-8] Holocaust victims [o-8]  prior to being  [i-8] executed [o-8] , 1945. 
+Each ring represents a  [i-8] destroyed family [o-8] . 
+ [i-13] Never forget, Nazis tore down statues.
+ [i-8] Banned free speech [o-8] .
+Blamed economic hardships on one group of people.  [i-8] Instituted gun control [o-8] .
+Sound Familiar? [o-13] ","People are so quick to forget.
+Wedding bands that were removed from Holocaust victims prior to being executed, 1945. 
+Each ring represents a destroyed family. [i-8]Never forget, Nazis tore down statues.
+Banned free speech.
+Blamed economic hardships on one group of people. Instituted gun control.
+Sound Familiar?","{'id': '<UNKNOWN>', 'article': 'People are so quick to forget.\n\nWedding bands that were removed from Holocaust victims prior to being executed, 1945. \nEach ring represents a destroyed family. \nNever forget, Nazis tore down statues.\nBanned free speech.\nBlamed economic hardships on one group of people. Instituted gun control.\nSound Familiar?', 'fragments': []}"
+8,723_batch_2,FAKE WINNER, [i-10] FAKE WINNER [o-10] ,FAKE WINNER [i-8],"{'id': '<UNKNOWN>', 'article': 'FAKE WINNER', 'fragments': []}"
+9,724_batch_2,"""We put together I think the most extensive and inclusive voter fraud organization in the history of American politics.""
+-Joe Biden"," [i-11] ""We put together I think  [i-10]  [i-5] the most extensive and inclusive  [i-8] voter fraud [o-8]  organization in the history of American politics [o-10]  [o-5] .""
+-Joe Biden [o-11] ","""We put together I think the most extensive and inclusive voter fraud organization in the history of American politics."" [i-8]-Joe Biden","{'id': '<UNKNOWN>', 'article': '""We put together I think the most extensive and inclusive voter fraud organization in the history of American politics.""\n-Joe Biden', 'fragments': []}"
+10,725_batch_2,"The Fraudfather
+He'll give you a ballot you can reuse"," [i-10] The  [i-8] Fraudfather [o-8]  [o-10] 
+He'll give you a ballot you can reuse",The Fraudfather  He'll give you a ballot you can reuse,"{'id': '<UNKNOWN>', 'article': ""The Fraudfather\nHe'll give you a ballot you can reuse"", 'fragments': [Fragment(start=48, end=53, label='Loaded Language')]}"
+11,726_batch_2,NOW YOU KNOW WHY I DIDN'T BOTHER CAMPAIGNING,NOW YOU KNOW WHY I DIDN'T BOTHER CAMPAIGNING,NOW YOU KNOW WHY I DIDN'T BOTHER CAMPAIGNING ,"{'id': '<UNKNOWN>', 'article': ""NOW YOU KNOW WHY I DIDN'T BOTHER CAMPAIGNING"", 'fragments': []}"
+12,727_batch_2,Me coming home with a turkey that serves 25,Me coming home with a turkey that serves 25,Me coming home with a turkey that serves 25 [i-8] [o-8] .,"{'id': '<UNKNOWN>', 'article': 'Me coming home with a turkey that serves 25', 'fragments': []}"
+13,732_batch_2,"I NEVER SAY ANYTHING I CAN'T PROVE. 
+- SIDNEY POWELL","I NEVER SAY ANYTHING I CAN'T PROVE. 
+- SIDNEY POWELL"," [i-8] I NEVER SAY ANYTHING I CAN'T PROVE. 
+- SIDNEY POWELL","{'id': '<UNKNOWN>', 'article': ""I NEVER SAY ANYTHING I CAN'T PROVE. \n- SIDNEY POWELL"", 'fragments': []}"
+14,733_batch_2,'Strike me down and you'll make me even more powerful',' [i-7]  [i-8] Strike me down [o-8]  and you'll make me even more powerful [o-7] ','Strike me down and you'll make me even more powerful',"{'id': '<UNKNOWN>', 'article': ""'Strike me down and you'll make me even more powerful'"", 'fragments': []}"
+15,736_batch_2,"By Bullet or Ballot
+Restoration Of The Republic Is Coming !"," [i-2] By  [i-8] Bullet [o-8]  or Ballot
+ [i-6] Restoration Of The Republic Is Coming [o-6]  ! [o-2] ",By Bullet or Ballot  Restoration Of The Republic Is Coming!,"{'id': '<UNKNOWN>', 'article': 'By Bullet or Ballot\nRestoration Of The Republic Is Coming !', 'fragments': []}"
+16,738_batch_2,"We're fed up.
+We're not asking for our country back.
+We're TAKING IT BACK
+WE THE PEOPLE ARE COMING
+America was founded by pissed off people.
+And they're pissed again!","We're fed up.
+ [i-6]  [i-2] We're not asking for our country back.
+We're TAKING IT BACK [o-2] 
+WE THE PEOPLE ARE COMING
+America was founded by  [i-10]  [i-8] pissed of [o-8] f people [o-10]  [o-6] .
+And they're  [i-8] pissed [o-8]  again!","We're fed up.
+We're not asking for our country back.  We're TAKING IT BACK  WE THE PEOPLE ARE COMING America was founded by pissed off people.
+And they're pissed again!","{'id': '<UNKNOWN>', 'article': ""We're fed up.\nWe're not asking for our country back.\nWe're TAKING IT BACK\nWE THE PEOPLE ARE COMING\nAmerica was founded by pissed off people.\nAnd they're pissed again!"", 'fragments': []}"
+17,740_batch_2,"REMEMBER KIDS. 
+YOU CAN VOTE YOUR WAY INTO SOCIALISM.
+BUT YOU HAVE TO SHOOT YOUR WAY OUT.","REMEMBER KIDS. 
+ [i-2] YOU CAN VOTE YOUR WAY INTO SOCIALISM.
+BUT  [i-1] YOU HAVE TO  [i-8] SHOOT YOUR WAY OUT [o-8]  [o-2]  [o-1] .","REMEMBER KIDS. 
+YOU CAN VOTE YOUR WAY INTO SOCIALISM.
+
+BUT YOU HAVE TO SHOOT YOUR WAY OUT.","{'id': '<UNKNOWN>', 'article': 'REMEMBER KIDS. \nYOU CAN VOTE YOUR WAY INTO SOCIALISM.\nBUT YOU HAVE TO SHOOT YOUR WAY OUT.', 'fragments': []}"
+18,741_batch_2,"NOW RIDDLE ME THIS
+
+IF VOTER FRAUD IS SO LOW, WHY DO LIBERALS THROW A TEMPER TANTRUM WHENEVER ANYBODY BOTHERS TO CHECK?","NOW RIDDLE ME THIS
+
+ [i-4] IF  [i-8] VOTER FRAUD [o-8]  IS SO LOW, WHY DO LIBERALS THROW A  [i-8] TEMPER TANTRUM [o-8]  WHENEVER ANYBODY BOTHERS TO CHECK? [o-4] ","NOW RIDDLE ME THIS
+IF VOTER FRAUD IS SO LOW, WHY DO LIBERALS THROW A TEMPER TANTRUM WHENEVER ANYBODY BOTHERS TO CHECK?","{'id': '<UNKNOWN>', 'article': 'NOW RIDDLE ME THIS\n\nIF VOTER FRAUD IS SO LOW, WHY DO LIBERALS THROW A TEMPER TANTRUM WHENEVER ANYBODY BOTHERS TO CHECK?', 'fragments': []}"
+19,744_batch_2,"THE GOVERNMENT IS CORRUPT ON EVERY LEVEL BUT DON'T WORRY, THE GOVERNMENT WILL INVESTIGATE
+ITSELF AND TELL YOU WHAT REALLY HAPPENED.
+"," [i-4] THE GOVERNMENT IS  [i-8] CORRUPT [o-8]  ON EVERY LEVEL BUT DON'T WORRY, THE GOVERNMENT WILL INVESTIGATE
+ITSELF AND TELL YOU WHAT REALLY HAPPENED [o-4] .
+","THE GOVERNMENT IS CORRUPT ON EVERY LEVEL BUT DON'T WORRY, THE GOVERNOMENT WILL INVESTIGATE  HITSELF AND TELL YOU WHAT REALLY HAPPENED.
+","{'id': '<UNKNOWN>', 'article': ""THE GOVERNMENT IS CORRUPT ON EVERY LEVEL BUT DON'T WORRY, THE GOVERNMENT WILL INVESTIGATE\nITSELF AND TELL YOU WHAT REALLY HAPPENED.\n"", 'fragments': []}"
+20,746_batch_2,"THE MOST ANOINTED FALSE PROPHET IN THE EARTH TODAY IS THE LYING MEDIA AND IT HAS MILLIONS OF
+CHRISTIANS UNDERNEATH ITS INFLUENCE AND THEY
+DON'T EVEN KNOW IT!
+
+"," [i-10]  [i-16] THE MOST ANOINTED  [i-8] FALSE PROPHET [o-8]  IN THE EARTH TODAY [o-10]  IS  [i-10] THE  [i-8] LYING [o-8]  MEDIA [o-10]  [o-16]  AND  [i-1] IT HAS MILLIONS OF
+CHRISTIANS UNDERNEATH ITS INFLUENCE AND THEY
+DON'T EVEN KNOW IT [o-1] !
+
+","THE MOST ANOINTED FALSE PROPHET IN THE EARTH TODAY IS THE LYING MEDIA AND IT HAS MILLIONS OF  [i-8] [o-10] 
+
+CHRISTIANS UNDERNEATH ITS INFLUENCE AND THEY
+DON'T EVEN KNOW IT!ヘラ","{'id': '<UNKNOWN>', 'article': ""THE MOST ANOINTED FALSE PROPHET IN THE EARTH TODAY IS THE LYING MEDIA AND IT HAS MILLIONS OF\nCHRISTIANS UNDERNEATH ITS INFLUENCE AND THEY\nDON'T EVEN KNOW IT!\n\n"", 'fragments': []}"
+21,748_batch_2,"IF YOU AIN'T DONALD TRUMP
+THEN YOU AIN'T MY PRESIDENT
+","IF YOU AIN'T DONALD TRUMP
+THEN YOU AIN'T MY PRESIDENT
+","IF YOU AIN'T DONALD TRUMP [i-8] [o-8] 
+THEN YOU Ain'T MY PRESIDENT ","{'id': '<UNKNOWN>', 'article': ""IF YOU AIN'T DONALD TRUMP\nTHEN YOU AIN'T MY PRESIDENT\n"", 'fragments': []}"
+22,750_batch_2,"WHY do Sidney Powell, James O'Keefe and Tom Fitton
+have to do the job of our FBI and DOJ?
+
+
+"," [i-4] WHY do Sidney Powell, James O'Keefe and Tom Fitton
+have to do the job of our FBI and DOJ? [o-4] 
+
+
+","WHY do Sidney Powell, James O'Keefe and Tom Fitton have to do the job of our FBI and DOJ?
+
+
+","{'id': '<UNKNOWN>', 'article': ""WHY do Sidney Powell, James O'Keefe and Tom Fitton\nhave to do the job of our FBI and DOJ?\n\n\n"", 'fragments': []}"
+23,753_batch_2,"HAIL JUSTICE AMY CONEY-BARRETT
+"," [i-8] HAIL [o-8]  JUSTICE AMY CONEY-BARRETT
+","HAIL JUSTICE AMY CONEY-BARRETT
+","{'id': '<UNKNOWN>', 'article': 'HAIL JUSTICE AMY CONEY-BARRETT\n', 'fragments': []}"
+24,754_batch_2,"WE COVER OUR FACES
+
+SO OUR PARENTS WON'T GROUND US
+","WE COVER OUR FACES
+
+SO OUR PARENTS WON'T GROUND US
+","WE COVER OUR FACES
+SO OUR PARENTS WON'T GROUND US ","{'id': '<UNKNOWN>', 'article': ""WE COVER OUR FACES\n\nSO OUR PARENTS WON'T GROUND US\n"", 'fragments': []}"
+25,758_batch_2,"FUCK EM
+
+RELEASE THE KRAKEN
+"," [i-8] FUCK EM [o-8] 
+
+ [i-15] RELEASE THE KRAKEN [o-15] 
+","FUCK EM
+RELEASE THE KRAKEN ","{'id': '<UNKNOWN>', 'article': 'FUCK EM\n\nRELEASE THE KRAKEN\n', 'fragments': []}"
+26,759_batch_2,"DOMINION VOTING AND SCYTL ARE FOREIGN COMPANIES...
+
+ACCORDING TO U.S. LAW THAT'S ILLEGAL!!!
+"," [i-4] DOMINION VOTING AND SCYTL ARE FOREIGN COMPANIES...
+
+ACCORDING TO U.S. LAW THAT'S  [i-8] ILLEGAL!!! [o-4]  [o-8] 
+","DOMINION VOTING AND SCYTL ARE FOREIGN COMPANIES...
+
+ACCORDING TO U.S. LAW THAT'S ILLEGAL!!!
+","{'id': '<UNKNOWN>', 'article': ""DOMINION VOTING AND SCYTL ARE FOREIGN COMPANIES...\n\nACCORDING TO U.S. LAW THAT'S ILLEGAL!!!\n"", 'fragments': []}"
+27,763_batch_2,"THIS AIN'T OVER
+","THIS AIN'T OVER
+","THIS AIN'T OVER
+","{'id': '<UNKNOWN>', 'article': ""THIS AIN'T OVER\n"", 'fragments': []}"
+28,765_batch_2,"IF THEY ARE SO SURE THEY WON WHY HASNT KAMALA RESIGNED HER SENATE SEAT?
+"," [i-4]  [i-12] IF THEY ARE SO SURE THEY WON WHY HASNT KAMALA RESIGNED HER SENATE SEAT? [o-4]  [o-12] 
+","IF THEY ARE SO SURE THEY WON WHY HASNT KAMALA RESIGNED HER SENATE SEAT?
+","{'id': '<UNKNOWN>', 'article': 'IF THEY ARE SO SURE THEY WON WHY HASNT KAMALA RESIGNED HER SENATE SEAT?\n', 'fragments': []}"
+29,766_batch_2,"COWBOY WISDOM
+""The water ain't gonna clear up 'til you get the pigs outa the creek!""
+"," [i-0] COWBOY WISDOM
+""The water ain't gonna clear up 'til you  [i-8] get the pigs outa the creek! [o-8] "" [o-0] 
+"," [i-8] COWBOY WISDOM
+""The water ain't gonna clear up 'til you get the pigs outa the creek!""
+","{'id': '<UNKNOWN>', 'article': 'COWBOY WISDOM\n""The water ain\'t gonna clear up \'til you get the pigs outa the creek!""\n', 'fragments': []}"
+30,767_batch_2,"AMERICA WAS NEVER THAT GREAT
+
+CAN YOU REPEAT THAT YOU PIECE OF SHIT","AMERICA WAS NEVER THAT GREAT
+
+CAN YOU REPEAT THAT YOU  [i-8]  [i-10] PIECE OF SHIT [o-8]  [o-10] ","AMERICA WAS NEVER THAT GREAT
+ CAN YOU REPEAT THAT YOU PIECE OF SHIT","{'id': '<UNKNOWN>', 'article': 'AMERICA WAS NEVER THAT GREAT\n\nCAN YOU REPEAT THAT YOU PIECE OF SHIT', 'fragments': []}"
+31,770_batch_2,"Liberal media declaring Biden the winner
+
+Captain, I'm picking up BULLSHIT on all frequencies
+"," [i-10]  [i-16] Liberal media [o-10]  declaring Biden the winner
+
+ [i-4] Captain, I'm picking up  [i-8] BULLSHIT [o-8]  on all frequencies [o-4]  [o-16] 
+","Liberal media declaring Biden the winner [i-8] [o-8] 
+ [i-16]  [i-5] [o-10] 
+
+Captain, I'm picking up BULLSHIT on all frequencies
+","{'id': '<UNKNOWN>', 'article': ""Liberal media declaring Biden the winner\n\nCaptain, I'm picking up BULLSHIT on all frequencies\n"", 'fragments': []}"
+32,771_batch_2,"Hallo. 
+Ve vill have to restrikt your akkount because you vont konform to kommunity standards.
+
+","Hallo. 
+Ve vill have to restrikt your akkount because you vont konform to kommunity standards.
+
+","Hallo. 
+Ve vill have to restrikt your akkount because you vont konform to kommunity standards.
+","{'id': '<UNKNOWN>', 'article': 'Hallo. \nVe vill have to restrikt your akkount because you vont konform to kommunity standards.\n\n', 'fragments': []}"
+33,775_batch_2,"Nancy ""Has-been"" Pelosi has claimed that even if he is aquitted, Trump will always go down in history as having been impeached.
+What Nasty Nancy hasn't realized yet is that her own legacy will be to go down in history as being the most
+corrupt, lying and despised member of congress and the WORST speaker of the house that has ever been
+known to man.
+"," [i-10] Nancy ""Has-been"" Pelosi [o-10]  has claimed that even if he is aquitted, Trump will always go down in history as having been impeached.
+ [i-16] What  [i-8]  [i-10] Nasty [o-8]  Nancy [o-10]  hasn't realized yet is that her own legacy will be to go down in history as being  [i-10] the most
+ [i-8] corrupt, lying and despised [o-8]  member of congress [o-10]  and  [i-5]  [i-8]  [i-10] the WORST [o-8]  speaker [o-10]  of the house that has ever been
+known to man [o-5]  [o-16] .
+","Nancy ""Has-been"" Pelosi has claimed that even if he is aquitted, Trump will always go down in history as having been impeached.
+What Nasty Nancy hasn't realized yet is that her own legacy will be to go down IN history as being the most corrupt, lying and despised member of congress and the WORST speaker of the house that has ever been known to man [o-10] [i-8].","{'id': '<UNKNOWN>', 'article': 'Nancy ""Has-been"" Pelosi has claimed that even if he is aquitted, Trump will always go down in history as having been impeached.\nWhat Nasty Nancy hasn\'t realized yet is that her own legacy will be to go down in history as being the most\ncorrupt, lying and despised member of congress and the WORST speaker of the house that has ever been\nknown to man.\n', 'fragments': [Fragment(start=128, end=235, label='Loaded Language')]}"
+34,778_batch_2,"SEPTEMBER
+
+ОСТОВЕR
+
+NOVEMBER
+You Are Here
+
+DECEMBER
+
+FEBRUARY
+
+MARCH
+
+APRIL
+
+MAY
+","SEPTEMBER
+
+ОСТОВЕR
+
+NOVEMBER
+You Are Here
+
+DECEMBER
+
+FEBRUARY
+
+MARCH
+
+APRIL
+
+MAY
+","SEPTEMBER
+  [i-8] 
+
+ [o-8] [o-10] [i-8].   [i-16]  with  [i-5] [o-15] [i-8][i-8]  RECNOVEMBERForgeModLoaderYou Are Here
+FINESTDECEMBER
+FEBRUARY
+MARCHEMOTEAPRIL
+MAY覚醒","{'id': '<UNKNOWN>', 'article': 'SEPTEMBER\n\nОСТОВЕR\n\nNOVEMBER\nYou Are Here\n\nDECEMBER\n\nFEBRUARY\n\nMARCH\n\nAPRIL\n\nMAY\n', 'fragments': []}"
+35,779_batch_2,"BIDEN/HARRIS VOTERS
+","BIDEN/HARRIS VOTERS
+"," [i-8]BIDEN/HARRIS VOTERS
+","{'id': '<UNKNOWN>', 'article': 'BIDEN/HARRIS VOTERS\n', 'fragments': []}"
+36,781_batch_2,"I WONDER HOW MANY DEMOCRATS ARE THINKING
+""WE FILLED OUT TOO MANY""
+
+"," [i-4] I WONDER HOW MANY DEMOCRATS ARE THINKING
+""WE FILLED OUT TOO MANY"" [o-4] 
+
+","  I WONDER HOW MANY DEMOCRATS ARE THINKING
+""WE FILLED OUT TOO MANY""
+
+","{'id': '<UNKNOWN>', 'article': 'I WONDER HOW MANY DEMOCRATS ARE THINKING\n""WE FILLED OUT TOO MANY""\n\n', 'fragments': []}"
+37,782_batch_2,"Ladies and gentlemen, THIS, is what I call modern art.
+
+Trump
+
+","Ladies and gentlemen, THIS, is what I call modern art.
+
+Trump
+
+","Ladies and gentlemen, THIS, is what I call modern art.
+Trump ","{'id': '<UNKNOWN>', 'article': 'Ladies and gentlemen, THIS, is what I call modern art.\n\nTrump\n\n', 'fragments': []}"
+38,783_batch_2,"I SAW WHAT YOU DID WITH THOSE BALLOTS.
+","I SAW WHAT YOU DID WITH THOSE BALLOTS.
+","I SAW WHAT YOU DID WITH THOSE BALLOTS.
+","{'id': '<UNKNOWN>', 'article': 'I SAW WHAT YOU DID WITH THOSE BALLOTS.\n', 'fragments': []}"
+39,785_batch_2,"I'M A R.A.C.I.S.T.
+
+REPUBLICAN
+AGAINST
+COMMUNIST
+INSANE
+SOCIALIST
+TERRORISM
+
+ARE YOU A R.A.C.I.S.T. TOO?
+","I'M A  [i-8] R.A.C.I.S.T [o-8] .
+
+REPUBLICAN
+AGAINST
+ [i-8] COMMUNIST [o-8] 
+ [i-8] INSANE [o-8] 
+ [i-8] SOCIALIST [o-8] 
+ [i-8] TERRORISM [o-8] 
+
+ARE YOU A  [i-8] R.A.C.I.S.T [o-8] . TOO?
+","I'M A R.A.C.I.S.T.
+
+REPUBLICAN
+AGAINST
+COMMUNIST INSANE
+
+SOCIALIST
+TERRORISM
+
+ARE YOU A R.A. C. I. S. T. TOO?
+","{'id': '<UNKNOWN>', 'article': ""I'M A R.A.C.I.S.T.\n\nREPUBLICAN\nAGAINST\nCOMMUNIST\nINSANE\nSOCIALIST\nTERRORISM\n\nARE YOU A R.A.C.I.S.T. TOO?\n"", 'fragments': []}"
+40,787_batch_2,"Your inspiration..
+
+My inspiration
+","Your inspiration..
+
+My inspiration
+","Your inspiration..
+My inspiration ","{'id': '<UNKNOWN>', 'article': 'Your inspiration..\n\nMy inspiration\n', 'fragments': []}"
+41,789_batch_2,"Case for Biden sainthood opened at Vatican after he raised millions from the dead on election day
+
+"," [i-16] Case for Biden sainthood opened at Vatican after  [i-5] he raised millions from the dead on election day [o-5]  [o-16] 
+
+",Case for Biden sainthood opened at Vatican after he raised millions from the dead on election day ,"{'id': '<UNKNOWN>', 'article': 'Case for Biden sainthood opened at Vatican after he raised millions from the dead on election day\n\n', 'fragments': []}"
+42,790_batch_2,"MAYBE THE REASON GROWN ADULTS ARE ACTING LIKE
+CHILDREN ABOUT PRESIDENT TRUMP Is because he's stepped up and has acted like the ""strict parent"" to a group of spoiled, ignorant, and entitled ""teenagers"" in a Government that has been in need of a true Father figure for a long time!!!!!
+"," [i-16] MAYBE THE REASON GROWN ADULTS ARE ACTING LIKE
+ [i-10] CHILDREN [o-10]  ABOUT PRESIDENT TRUMP Is because  [i-7] he's stepped up and has acted like the  [i-10] ""strict parent"" [o-10]  to a group of  [i-8]  [i-10] spoiled, ignorant, and entitled [o-8]  ""teenagers"" [o-10]  in a Government that has been in need of a  [i-10] true Father figure [o-10]  for a long time!!!!! [o-7]  [o-16] 
+","MAYBE THE REASON GROWN ADULTS ARE ACTING LIKE CHILDREN ABOUT PRESIDENT TRUMP Is because he's stepped up and has acted like the ""strict parent"" to a group of spoiled, ignorant, and entitled ""teenagers"" in a Government that has been in need of a true Father figure for a long time!!!!!
+","{'id': '<UNKNOWN>', 'article': 'MAYBE THE REASON GROWN ADULTS ARE ACTING LIKE\nCHILDREN ABOUT PRESIDENT TRUMP Is because he\'s stepped up and has acted like the ""strict parent"" to a group of spoiled, ignorant, and entitled ""teenagers"" in a Government that has been in need of a true Father figure for a long time!!!!!\n', 'fragments': []}"
+43,794_batch_2,"AMERICAN EXPERIENCE
+THE GREAT WAR
+","AMERICAN EXPERIENCE
+THE GREAT WAR
+","AMERICAN EXPERIENCE [i-8]THE GREAT WAR
+","{'id': '<UNKNOWN>', 'article': 'AMERICAN EXPERIENCE\nTHE GREAT WAR\n', 'fragments': []}"
+44,795_batch_2,"HOUSTON WE FOUND SOME MORE BALLOTS
+","HOUSTON WE FOUND SOME MORE BALLOTS
+",HOUSTON WE FOUND SOME MORE BALLOTS ,"{'id': '<UNKNOWN>', 'article': 'HOUSTON WE FOUND SOME MORE BALLOTS\n', 'fragments': []}"
+45,798_batch_2,"""I'M COMPLETELY FED-UP TO HERE WITH FACEBOOK PUTTING WORDS INTO MY MOUTH""
+
+""WHEN I SAID, WE NOW HAVE THE GREATEST VOTER FRAUD ORGANIZATION IN HISTORY',,, I MEANT IT!"".
+","""I'M  [i-8] COMPLETELY FED-UP [o-8]  TO HERE WITH FACEBOOK PUTTING WORDS INTO MY MOUTH""
+
+""WHEN I SAID, WE NOW HAVE THE  [i-10]  [i-5] GREATEST VOTER FRAUD ORGANIZATION IN HISTORY [o-10]  [o-5] ',,, I MEANT IT!"".
+","""I'M COMPLETELY FED-UP TO HERE WITH FACEBOOK PUTTING WORDS INTO MY MOUTH""
+
+
+""WHEN I SAID, WE NOW HAVE THE GREATEST VOTER FRAUD ORGANIZATION IN HISTORY',,, I MEANT IT!"".EMOTE","{'id': '<UNKNOWN>', 'article': '""I\'M COMPLETELY FED-UP TO HERE WITH FACEBOOK PUTTING WORDS INTO MY MOUTH""\n\n""WHEN I SAID, WE NOW HAVE THE GREATEST VOTER FRAUD ORGANIZATION IN HISTORY\',,, I MEANT IT!"".\n', 'fragments': []}"
+46,799_batch_2,"The greatest words ever spoken by a sitting president.
+
+""Democrats continue to defraud the public with ridiculous bullshit!""
+- Donald Trump -
+"," [i-7] The  [i-10]  [i-5] greatest words ever spoken by a sitting president [o-10]  [o-5]  [o-7] .
+
+ [i-0] "" [i-16] Democrats continue to defraud the public with  [i-8] ridiculous bullshit [o-16] ! [o-8] ""
+- Donald Trump [o-0]  -
+"," [i-8] The greatest words ever spoken by a sitting president.
+""Democrats continue to defraud the public with ridiculous bullshit!""
+- Donald Trump -
+
+","{'id': '<UNKNOWN>', 'article': 'The greatest words ever spoken by a sitting president.\n\n""Democrats continue to defraud the public with ridiculous bullshit!""\n- Donald Trump -\n', 'fragments': []}"
+47,802_batch_2,"RIP FOX NEWS
+
+I'M STILL GOING TO BE YOUR PRESIDENT
+"," [i-8]  [i-16] RIP [o-8]  FOX NEWS [o-16] 
+
+I'M STILL GOING TO BE YOUR PRESIDENT
+"," [i-8] [o-8]    I'M STILL GOING TO BE YOUR PRESIDENT
+","{'id': '<UNKNOWN>', 'article': ""RIP FOX NEWS\n\nI'M STILL GOING TO BE YOUR PRESIDENT\n"", 'fragments': []}"
+48,803_batch_2,"He's been telling us for months about election fraud...
+Do you really believe he hasn't been preparing for this moment???
+3..2.. 1 ....Checkmate!!
+","He's been telling us for months about  [i-8] election fraud [o-8] ...
+ [i-4] Do you really believe he hasn't been preparing for this moment??? [o-4] 
+3..2.. 1 .... [i-17] Checkmate!! [o-17] 
+","He's been telling us for months about election fraud...Do you really believe he hasn't been preparing for this moment???
+3..2.. 1....Checkmate!!
+","{'id': '<UNKNOWN>', 'article': ""He's been telling us for months about election fraud...\nDo you really believe he hasn't been preparing for this moment???\n3..2.. 1 ....Checkmate!!\n"", 'fragments': []}"
+49,804_batch_2,"Enjoy Communism
+""it's finger lickin'good""
+
+","Enjoy  [i-8]  [i-10] Communism [o-8] 
+""it's finger lickin'good"" [o-10] 
+
+","Enjoy Communism
+""it's finger lickin'good"" ","{'id': '<UNKNOWN>', 'article': 'Enjoy Communism\n""it\'s finger lickin\'good""\n\n', 'fragments': []}"
+50,805_batch_2,"WALT DISNEY Presents
+OLD Smeller
+","WALT DISNEY Presents
+ [i-10] OLD Smeller [o-10] 
+","WALT DISNEY Presents
+OLD Smeller ","{'id': '<UNKNOWN>', 'article': 'WALT DISNEY Presents\nOLD Smeller\n', 'fragments': []}"
+51,806_batch_2,"Still trying to find the section in the Constitution where it says CNN determines the President...
+"," [i-4] Still trying to find the section in the Constitution where it says CNN determines the President... [o-4] 
+","Still trying to find the section in the Constitution where it says CNN determines the President...
+","{'id': '<UNKNOWN>', 'article': 'Still trying to find the section in the Constitution where it says CNN determines the President...\n', 'fragments': []}"
+52,808_batch_2,"""WHERE ARE YOU GOING,BIG BIRD?""
+
+""I'M GOING TO PENNSYLVANIA, TO TEACH THEM HOW TO COUNT""
+
+","""WHERE ARE YOU GOING, [i-10] BIG BIRD [o-10] ?""
+
+"" [i-4]  [i-16] I'M GOING TO PENNSYLVANIA, TO TEACH THEM HOW TO COUNT [o-4]  [o-16] ""
+
+","""WHERE ARE YOU GOING,BIG BIRD?""
+ItemThumbnailImage""I'M GOING TO PENNSYLVANIA, TO TEACH THEM HOW TO COUNT""
+
+","{'id': '<UNKNOWN>', 'article': '""WHERE ARE YOU GOING,BIG BIRD?""\n\n""I\'M GOING TO PENNSYLVANIA, TO TEACH THEM HOW TO COUNT""\n\n', 'fragments': []}"
+53,813_batch_2,NOW MORE THAN EVER, [i-5] NOW MORE THAN EVER [o-5] ,NOW MORE THAN EVER ,"{'id': '<UNKNOWN>', 'article': 'NOW MORE THAN EVER', 'fragments': []}"
+54,814_batch_2,"HOLD UP!!! Sleepy Joe broke my record?!?!?!?
+
+I call BULLSHIT!!!"," [i-4] HOLD UP!!!  [i-10] Sleepy Joe [o-10]  broke my record? [o-4] !?!?!?
+
+I call  [i-8] BULLSHIT!!! [o-8] ","HOLD UP!!! Sleepy Joe broke my record?!?!?!?
+I call BULLSHIT!!!","{'id': '<UNKNOWN>', 'article': 'HOLD UP!!! Sleepy Joe broke my record?!?!?!?\n\nI call BULLSHIT!!!', 'fragments': []}"
+55,815_batch_2,"CHEERS TO MY HATERS
+
+BE PATIENT, SO MUCH MORE IS COMING","CHEERS TO MY  [i-8]  [i-10] HATERS [o-8]  [o-10] 
+
+BE PATIENT, SO MUCH MORE IS COMING","CHEERS TO MY HATERS 
+
+
+BE PATIENT, SO MUCH MORE IS COMING","{'id': '<UNKNOWN>', 'article': 'CHEERS TO MY HATERS\n\nBE PATIENT, SO MUCH MORE IS COMING', 'fragments': []}"
+56,816_batch_2,"FAIR AND BALANCED
+
+FAUX NEWS
+
+WE DISTORT YOU COMPLY","FAIR AND BALANCED
+
+ [i-10]  [i-16] FAUX NEWS [o-10] 
+
+ [i-15] WE DISTORT YOU COMPLY [o-15]  [o-16] ","FAIR AND BALANCED
+ FAUX NEWS
+
+WE DISTORT YOU COMPLY","{'id': '<UNKNOWN>', 'article': 'FAIR AND BALANCED\n\nFAUX NEWS\n\nWE DISTORT YOU COMPLY', 'fragments': []}"
+57,817_batch_2,Those who spent the last 4 years convinced there was election interference are now saying there's no way the election could be rigged., [i-18] Those who spent the last 4 years convinced there was election interference are now saying there's no way the election could be  [i-8] rigged [o-8]  [o-18] .,Those who spent the last 4 years convinced there was election interference are now saying there's no way the election could be rigged.,"{'id': '<UNKNOWN>', 'article': ""Those who spent the last 4 years convinced there was election interference are now saying there's no way the election could be rigged."", 'fragments': []}"
+58,819_batch_2,"9-11 NEVER FORGET
+
+11-3 NEVER FORGET"," [i-15] 9-11 NEVER FORGET [o-15] 
+
+11-3  [i-14] NEVER FORGET [o-14] ","9-11 NEVER FORGET
+11-3 NEVERFORGET","{'id': '<UNKNOWN>', 'article': '9-11 NEVER FORGET\n\n11-3 NEVER FORGET', 'fragments': []}"
+59,822_batch_2,DEMOCRATS GOING TO THE POLLS 2020,DEMOCRATS GOING TO THE POLLS 2020,DEMOCRATS GOING TO THE POLLS 2020 ,"{'id': '<UNKNOWN>', 'article': 'DEMOCRATS GOING TO THE POLLS 2020', 'fragments': []}"
+60,824_batch_2,"""SHOW ME A MAN THAT GETS RICH BY BEING A POLITICIAN, AND I'LL SHOW YOU A CROOK.""
+-HARRY S. TRUMAN
+
+MAKIN' IT RAIN"," [i-0] ""SHOW ME A MAN THAT GETS RICH BY BEING A POLITICIAN, AND I'LL SHOW YOU A  [i-8]  [i-10] CROOK [o-8]  [o-10] .""
+-HARRY S. TRUMAN [o-0] 
+
+ [i-15] MAKIN' IT RAIN [o-15] ","""SHOW ME A MAN THAT GETS RICH BY BEING A POLITICIAN, AND I'LL SHOW YOU A CROOK.""
+-HARRY S. TRUMAN
+
+MAKIN' IT RAIN","{'id': '<UNKNOWN>', 'article': '""SHOW ME A MAN THAT GETS RICH BY BEING A POLITICIAN, AND I\'LL SHOW YOU A CROOK.""\n-HARRY S. TRUMAN\n\nMAKIN\' IT RAIN', 'fragments': []}"
+61,825_batch_2,"Never burned one building
+Never robbed one store
+Never destroyed one town
+
+Changed the World"," [i-7] Never  [i-8] burned [o-8]  one building
+Never  [i-8] robbed [o-8]  one store
+Never  [i-8] destroyed [o-8]  one town
+
+Changed the World [o-7] ","Never burned one building
+Never robbed one store
+Never destroyed one town
+Changed the World","{'id': '<UNKNOWN>', 'article': 'Never burned one building\nNever robbed one store\nNever destroyed one town\n\nChanged the World', 'fragments': []}"
+62,828_batch_2,"All four members of 'The Squad' re-elected to House, with more progressives joining
+
+MEET THE SQUAD","All four members of ' [i-10] The Squad [o-10] ' re-elected to House, with more progressives joining
+
+MEET THE SQUAD","All four members of 'The Squad' re-elected to House, with more progressives joining
+MEET THE SQUAD","{'id': '<UNKNOWN>', 'article': ""All four members of 'The Squad' re-elected to House, with more progressives joining\n\nMEET THE SQUAD"", 'fragments': []}"
+63,829_batch_2,"STEPHANOPOULOS: WHAT'S IN YOUR QUIVER ?
+
+PELOSI: STOLEN BALLOTS TO DUMP"," [i-16] STEPHANOPOULOS: WHAT'S IN YOUR QUIVER ?
+
+PELOSI:  [i-8]  [i-4] STOLEN [o-8]  BALLOTS TO DUMP [o-4]  [o-16] ","STEPHANOPOULOS: WHAT'S IN YOUR QUIVER?
+
+
+PELOSI: STOLEN BALLOTS TO DUMP","{'id': '<UNKNOWN>', 'article': ""STEPHANOPOULOS: WHAT'S IN YOUR QUIVER ?\n\nPELOSI: STOLEN BALLOTS TO DUMP"", 'fragments': []}"
+64,830_batch_2,Biden makes history with twice as many votes as voters, [i-4] Biden makes history with twice as many votes as voters [o-4] , [i-8]  Biden makes history with twice as many votes as voters,"{'id': '<UNKNOWN>', 'article': 'Biden makes history with twice as many votes as voters', 'fragments': []}"
+65,832_batch_2,"PRAY FOR AMERICA
+
+Dear God 
+I bow my head and ask, if it be thy will, please save this land from those who seek to destroy it."," [i-15]  [i-6] PRAY FOR AMERICA [o-15]  [o-6] 
+
+Dear God 
+I bow my head and ask, if it be thy will,  [i-1] please save this land from those who seek to  [i-8] destroy [o-8]  it [o-1] ."," [i-8] PRAY FOR AMERICA
+GoldMagikarpDear God 
+I bow my head and ask, if it be thy will, please save this land from those who seek to destroy it.","{'id': '<UNKNOWN>', 'article': 'PRAY FOR AMERICA\n\nDear God \nI bow my head and ask, if it be thy will, please save this land from those who seek to destroy it.', 'fragments': []}"
+66,837_batch_2,SO YOU'RE TELLING ME THE DEMS RIGGED THE ELECTION BUT LET MITCH MCCONNELL WIN?, [i-4] SO YOU'RE TELLING ME THE DEMS  [i-8] RIGGED THE ELECTION [o-8]  BUT LET MITCH MCCONNELL WIN? [o-4] ,SO YOU'RE TELLING ME THE DEMS RIGGED THE ELECTION BUT LET MITCH MCCONNELL WIN?,"{'id': '<UNKNOWN>', 'article': ""SO YOU'RE TELLING ME THE DEMS RIGGED THE ELECTION BUT LET MITCH MCCONNELL WIN?"", 'fragments': []}"
+67,839_batch_2,"IS IT ALZHEIMER'S?
+THE INTERNET NEVER FORGETS, BUT THEY SEEM TO... 
+
+""I HAVE NEVER SEEN ANYTING LIKE THE ANGER ON THE LEFT""
+- Ted Cruz Feb. 23, 2017","IS IT ALZHEIMER'S?
+THE INTERNET NEVER FORGETS, BUT THEY SEEM TO... 
+
+"" [i-5] I HAVE NEVER SEEN ANYTING LIKE THE  [i-8] ANGER [o-8]  ON THE LEFT [o-5] ""
+- Ted Cruz Feb. 23, 2017","IS IT ALZHEIMER'S? [i-8]THE INTERNET NEVER FORGETS, BUT THEY SEEM TO... 
+
+""I HAVE NEVER SEEN ANYTING LIKE THE ANGER ON THE LEFT""
+
+- Ted Cruz Feb. 23, 2017","{'id': '<UNKNOWN>', 'article': 'IS IT ALZHEIMER\'S?\nTHE INTERNET NEVER FORGETS, BUT THEY SEEM TO... \n\n""I HAVE NEVER SEEN ANYTING LIKE THE ANGER ON THE LEFT""\n- Ted Cruz Feb. 23, 2017', 'fragments': []}"
+68,840_batch_2,"KENTUCKY VOTERS HAVE A RIGHT KNOW WHAT'S WRONG WITH MITCH MCCONNELL'S HEALTH BEFORE THE ELECTION.
+PERIOD.","KENTUCKY VOTERS HAVE A RIGHT KNOW WHAT'S WRONG WITH MITCH MCCONNELL'S HEALTH BEFORE THE ELECTION.
+ [i-17] PERIOD. [o-17] ","KENTUCKY VOTERS HAVE A RIGHT KNOW WHAT'S WRONG WITH MITCH MCCONNELL'S HEALTH BEFORE THE ELECTION.
+PERIOD.","{'id': '<UNKNOWN>', 'article': ""KENTUCKY VOTERS HAVE A RIGHT KNOW WHAT'S WRONG WITH MITCH MCCONNELL'S HEALTH BEFORE THE ELECTION.\nPERIOD."", 'fragments': []}"
+69,841_batch_2,"i spent the last 11 years refusing to do my job and 9 of those years preventing the entire Us senate from doing theirs.
+
+I'm up for re election this year.
+Anybody want me to spend 6 more years NOT doing my job?"," [i-16] i spent the last 11 years refusing to do my job and 9 of those years preventing the entire Us senate from doing theirs [o-16] .
+
+I'm up for re election this year.
+ [i-4] Anybody want me to spend 6 more years NOT doing my job? [o-4] ","i spent the last 11 years refusing to do my job and 9 of those years preventing the entire Us senate from doing theirs.
+I'm up for re election this year.
+Anybody want me to spend 6 more years NOT doing my job?","{'id': '<UNKNOWN>', 'article': ""i spent the last 11 years refusing to do my job and 9 of those years preventing the entire Us senate from doing theirs.\n\nI'm up for re election this year.\nAnybody want me to spend 6 more years NOT doing my job?"", 'fragments': []}"
+70,843_batch_2,"He LOVES to Talk about Himself.
+
+WARNING SIGNS OF A CULT
+-From the Cult Education Network
+• The Leader is Always Right
+• Criticism of the Leader is Characterized as “Persecution""
+• No Matter How Harmful, the Leader's Behavior is Justified
+• Adherents are Obsessed with the Leader
+• The Leader has the Exclusive Franchise on ""Truth""
+
+ANOTHER DAY, MORE REPUBLICAN DIRTY TRICKS","He LOVES to Talk about Himself.
+
+WARNING SIGNS OF A  [i-8] CULT [o-8] 
+-From the Cult Education Network
+•  [i-15] The Leader is Always Right [o-15] 
+• Criticism of the Leader is Characterized as “ [i-8] Persecution [o-8] ""
+• No Matter How  [i-8] Harmful [o-8] , the Leader's Behavior is Justified
+• Adherents are  [i-8] Obsessed [o-8]  with the Leader
+• The Leader has the Exclusive Franchise on ""Truth""
+
+ANOTHER DAY,  [i-16] MORE REPUBLICAN  [i-8]  [i-10] DIRTY TRICKS [o-8]  [o-10]  [o-16] ","He LOVES to Talk about Himself.
+
+WARNING SIGNS OF A CULT
+
+-From the Cult Education Network
+• The Leader is Always Right
+• Criticism of the Leader is Characterized as “Persecution"" [i-8] No Matter How Harmful, the Leader's Behavior is Justifiedヘラ• Adherents are Obsessed with the Leader [i-16] The Leader has the Exclusive Franchise on ""Truth""
+
+ANOTHER DAY, MORE REPUBLICAN DIRTY TRICKS","{'id': '<UNKNOWN>', 'article': 'He LOVES to Talk about Himself.\n\nWARNING SIGNS OF A CULT\n-From the Cult Education Network\n• The Leader is Always Right\n• Criticism of the Leader is Characterized as “Persecution""\n• No Matter How Harmful, the Leader\'s Behavior is Justified\n• Adherents are Obsessed with the Leader\n• The Leader has the Exclusive Franchise on ""Truth""\n\nANOTHER DAY, MORE REPUBLICAN DIRTY TRICKS', 'fragments': []}"
+71,844_batch_2,"Republicans, 
+You can either follow Jesus Christ;
+
+Or, you can follow Donald Trump
+
+You cannot do both.","Republicans, 
+ [i-2]  [i-16] You can either follow Jesus Christ;
+
+Or, you can follow Donald Trump
+
+You cannot do both. [o-2]  [o-16] ","Republicans, 
+You can either follow Jesus Christ;
+ヘラOr, you can follow Donald Trump
+
+You cannot do both.","{'id': '<UNKNOWN>', 'article': 'Republicans, \nYou can either follow Jesus Christ;\n\nOr, you can follow Donald Trump\n\nYou cannot do both.', 'fragments': []}"
+72,845_batch_2,"THE MOST CRIMIMAL PRESIDENCY EVER ASSEMBLED.
+
+THE INDICTABLES"," [i-10]  [i-5] THE MOST  [i-8] CRIMIMAL [o-8]  PRESIDENCY EVER ASSEMBLED [o-10]  [o-5] .
+
+ [i-10] THE INDICTABLES [o-10] ","THE MOST CRIMIMAL PRESIDENCY EVER ASSEMBLED.
+FINESTTHE INDICTABLES","{'id': '<UNKNOWN>', 'article': 'THE MOST CRIMIMAL PRESIDENCY EVER ASSEMBLED.\n\nTHE INDICTABLES', 'fragments': []}"
+73,846_batch_2,"Make no mistake.
+
+This is TRUMP's America.","Make no mistake.
+
+This is  [i-10] TRUMP's America [o-10] .","Make no mistake.
+This is TRUMP's America.","{'id': '<UNKNOWN>', 'article': ""Make no mistake.\n\nThis is TRUMP's America."", 'fragments': []}"
+74,847_batch_2,"PRESIDENTS FOR TRUMP
+
+PRESIDENTS AGAINST TRUMP
+
+America, this says it all.","PRESIDENTS FOR TRUMP
+
+PRESIDENTS AGAINST TRUMP
+
+America, this says it all.","PRESIDENTS FOR TRUMP 
+ PRESIDENTS AGAINST TRUMP 
+
+America, this says it all.","{'id': '<UNKNOWN>', 'article': 'PRESIDENTS FOR TRUMP\n\nPRESIDENTS AGAINST TRUMP\n\nAmerica, this says it all.', 'fragments': []}"
+75,852_batch_2,"I NEVER TOLD YOU TO HATE ANYBODY
+I DON'T CARE WHERE THEY'RE FROM,  WHAT THEY LOOK LIKE, WHO THEY'RE IN LOVE WITH, OR WHO THEY WORSHIP.
+WHY IS THIS SO DIFFICULT?","I NEVER TOLD YOU TO  [i-8] HATE [o-8]  ANYBODY
+I DON'T CARE WHERE THEY'RE FROM,  WHAT THEY LOOK LIKE, WHO THEY'RE IN LOVE WITH, OR WHO THEY WORSHIP.
+WHY IS THIS SO DIFFICULT?","  I NEVER TOLD YOU TO HATE ANYBODY   I DON'T CARE WHERE THEY'RE FROM,  WHAT THEY LOOK LIKE, WHO THEY're IN LOVE WITH, OR WHO THEY WORSHIP.
+WHY IS THIS SO DIFFICULT?","{'id': '<UNKNOWN>', 'article': ""I NEVER TOLD YOU TO HATE ANYBODY\nI DON'T CARE WHERE THEY'RE FROM,  WHAT THEY LOOK LIKE, WHO THEY'RE IN LOVE WITH, OR WHO THEY WORSHIP.\nWHY IS THIS SO DIFFICULT?"", 'fragments': [Fragment(start=0, end=32, label='Loaded Language')]}"
+76,854_batch_2,"MAKE AMERICA GREAT AGAIN
+
+A NATION WHOSE HEALTHCARE WORKERS DON'T HAVE MASKS TO KEEP THEM FROM GETTING SICK, ATTENDING TO PATIENTS WHO CAN'T GET VENTILATORS TO KEEP THEM ALIVE, SURROUNDED BY SICK PEOPLE WHO CAN'T GET TESTED, ISN'T GREAT
+IT'S A DAMN DISGRACE."," [i-15]  [i-6] MAKE AMERICA GREAT AGAIN [o-15]  [o-6] 
+
+ [i-8]  [i-16] A NATION WHOSE HEALTHCARE WORKERS DON'T HAVE MASKS TO KEEP THEM FROM GETTING SICK, ATTENDING TO PATIENTS WHO CAN'T GET VENTILATORS TO KEEP THEM ALIVE, SURROUNDED BY SICK PEOPLE WHO CAN'T GET TESTED, ISN'T GREAT [o-8] 
+IT'S A  [i-8] DAMN DISGRACE [o-8]  [o-16] .","MAKE AMERICA GREAT AGAIN
+A NATION WHOSE HEALTHCARE WORKERS DON'T HAVE MASKS TO KEEP THEM FROM GETTING SICK, ATTENDING TO PATIENTS WHO CAN'T GET VENTILATORS TO  [i-8]  to KEEP them ALIVE, SURROUNDED BY SICK PEOPLE WHO CAN’T GET TESTED, ISN'T GREAT AGAINS
+IT'S A DAMN DISGRACE.","{'id': '<UNKNOWN>', 'article': ""MAKE AMERICA GREAT AGAIN\n\nA NATION WHOSE HEALTHCARE WORKERS DON'T HAVE MASKS TO KEEP THEM FROM GETTING SICK, ATTENDING TO PATIENTS WHO CAN'T GET VENTILATORS TO KEEP THEM ALIVE, SURROUNDED BY SICK PEOPLE WHO CAN'T GET TESTED, ISN'T GREAT\nIT'S A DAMN DISGRACE."", 'fragments': []}"
+77,858_batch_2,ELECTION 2020: PICK A TORCH,ELECTION 2020: PICK A TORCH,ELECTION 2020: PICK A TORCH [i-8] [i-8].,"{'id': '<UNKNOWN>', 'article': 'ELECTION 2020: PICK A TORCH', 'fragments': []}"
+78,860_batch_2,"The President of the United States is fighting the release of his DNA in a rape case.
+Evidence that would exonerate him if innocent.
+Let that sink in."," [i-16] The President of the United States is fighting the release of his DNA in a  [i-8] rape case [o-8] .
+Evidence that would exonerate him if innocent [o-16] .
+ [i-17] Let that sink in [o-17] .","The President of the United States is fighting the release of his DNA in a rape case.
+Evidence that would exonerate him if innocent. Let that sink in.","{'id': '<UNKNOWN>', 'article': 'The President of the United States is fighting the release of his DNA in a rape case.\nEvidence that would exonerate him if innocent.\nLet that sink in.', 'fragments': []}"
+79,865_batch_2,TRUMP FOR EX-PRESIDENT, [i-15]  [i-16] TRUMP FOR EX-PRESIDENT [o-15]  [o-16] ,TRUMP FOR EX-PRESIDENT ,"{'id': '<UNKNOWN>', 'article': 'TRUMP FOR EX-PRESIDENT', 'fragments': []}"
+80,866_batch_2,Flip the Senate, [i-15] Flip the Senate [o-15] ,Flip the Senate [i-8] [o-10] [o-8].,"{'id': '<UNKNOWN>', 'article': 'Flip the Senate', 'fragments': []}"
+81,872_batch_2,TRUMP ANNOUNCES HIS NEW PANDEMIC RESPONSE TEAM,TRUMP ANNOUNCES HIS NEW PANDEMIC RESPONSE TEAM,TRUMP ANNOUNCES HIS NEW PANDEMIC RESPONSE TEAM ,"{'id': '<UNKNOWN>', 'article': 'TRUMP ANNOUNCES HIS NEW PANDEMIC RESPONSE TEAM', 'fragments': []}"
+82,873_batch_2,"TRUMP'S COUNCIL TO REOPEN AMERICA AFTERA HEALTH CRISIS.
+
+NOT ONE DOCTOR OR PUBLIC HEALTH SPECIALIST IN THE GROUP.
+
+BECAUSE TRUMP DOESN'T WANT ADVICE, HE WANTS AGREEMENT."," [i-16] TRUMP'S COUNCIL TO REOPEN AMERICA AFTERA HEALTH CRISIS.
+
+NOT ONE DOCTOR OR PUBLIC HEALTH SPECIALIST IN THE GROUP.
+
+ [i-3] BECAUSE TRUMP DOESN'T WANT ADVICE, HE WANTS AGREEMENT [o-3]  [o-16] .","TRUMP'S COUNCIL TO REOPEN AMERICA AFTERA HEALTH CRISIS.
+
+
+NOT ONE DOCTOR OR PUBLIC HEALTH SPECIALIST IN THE GROUP [i-8] [o-10] ..
+
+BECAUSE TRUMP DOESN'T WANT ADVICE, HE WANTS AGREEMENT.","{'id': '<UNKNOWN>', 'article': ""TRUMP'S COUNCIL TO REOPEN AMERICA AFTERA HEALTH CRISIS.\n\nNOT ONE DOCTOR OR PUBLIC HEALTH SPECIALIST IN THE GROUP.\n\nBECAUSE TRUMP DOESN'T WANT ADVICE, HE WANTS AGREEMENT."", 'fragments': []}"
+83,875_batch_2,"""Trump cannot come up with an alibi for the month of
+February.""
+- Jennifer Rubin"," [i-0] ""Trump cannot come up with an alibi for the month of
+February.""
+- Jennifer Rubin [o-0] ","""Trump cannot come up with an alibi for the month of February.""- Jennifer Rubin","{'id': '<UNKNOWN>', 'article': '""Trump cannot come up with an alibi for the month of\nFebruary.""\n- Jennifer Rubin', 'fragments': []}"
+84,876_batch_2,"""MY WORK HERE IS ALMOST DONE.""","""MY WORK HERE IS ALMOST DONE.""","""MY WORK HERE IS ALMOST DONE.""","{'id': '<UNKNOWN>', 'article': '""MY WORK HERE IS ALMOST DONE.""', 'fragments': []}"
+85,877_batch_2,"Thank a Democrat
+
+Social Security 
+Medicare
+Veterans Administration 
+Civil Rights 
+Women's Suffrage 
+Affordable Care Act 
+Peace Corps 
+Minimum Wage 
+Unemployment"," [i-7]  [i-15] Thank a Democrat [o-15] 
+
+Social Security 
+Medicare
+Veterans Administration 
+Civil Rights 
+Women's Suffrage 
+Affordable Care Act 
+Peace Corps 
+Minimum Wage 
+Unemployment [o-7] "," [i-8] a Democrat
+Social Security 
+Medicare 
+Veterans Administration Civil Rights 
+Women's Suffrage 
+Affordable Care Act 
+Peace Corps 
+Minimum Wage 
+Unemployment","{'id': '<UNKNOWN>', 'article': ""Thank a Democrat\n\nSocial Security \nMedicare\nVeterans Administration \nCivil Rights \nWomen's Suffrage \nAffordable Care Act \nPeace Corps \nMinimum Wage \nUnemployment"", 'fragments': []}"
+86,880_batch_2,"""I alone can fix it""
+- Trump, 2016
+
+""I don't take responsibility at all""
+- Trump, 2020"," [i-18]  [i-16] ""I alone can fix it""
+- Trump, 2016
+
+""I don't take responsibility at all""
+- Trump, 2020 [o-18]  [o-16] ","""I alone can fix it""
+- Trump, 2016
+""I don't take responsibility at all"" [i-16] Trump, 2020","{'id': '<UNKNOWN>', 'article': '""I alone can fix it""\n- Trump, 2016\n\n""I don\'t take responsibility at all""\n- Trump, 2020', 'fragments': []}"
+87,881_batch_2,"REMEMBER WHEN OBAMA FORCED REPUBLICAN GOVERNORS TO BEG FOR FEDERAL DISASTER RELIEF?
+
+YEAH, ME NEITHER"," [i-7] REMEMBER WHEN OBAMA  [i-8] FORCED REPUBLICAN GOVERNORS TO BEG FOR FEDERAL DISASTER RELIEF [o-8] ?
+
+YEAH, ME NEITHER [o-7] ","REMEMBER WHEN OBAMA FORCED REPUBLICAN GOVERNORS TO BEG FOR FEDERAL DISASTER RELIEF?
+YEAH, ME NEITHER","{'id': '<UNKNOWN>', 'article': 'REMEMBER WHEN OBAMA FORCED REPUBLICAN GOVERNORS TO BEG FOR FEDERAL DISASTER RELIEF?\n\nYEAH, ME NEITHER', 'fragments': []}"
+88,886_batch_2,"FOUGHT ISIS 
+
+FREED ISIS
+","FOUGHT ISIS 
+
+FREED ISIS
+","FOUGHT ISIS 
+EMOTEFREED ISIS
+","{'id': '<UNKNOWN>', 'article': 'FOUGHT ISIS \n\nFREED ISIS\n', 'fragments': []}"
+89,887_batch_2,YOUR MASK IS THE NEW TINFOIL HAT, [i-4]  [i-10]  [i-16] YOUR MASK IS THE NEW TINFOIL HAT [o-4]  [o-10]  [o-16] ,YOUR MASK IS THE NEW TINFOIL HAT ,"{'id': '<UNKNOWN>', 'article': 'YOUR MASK IS THE NEW TINFOIL HAT', 'fragments': []}"
+90,888_batch_2,The Biden/Harris/CCP Administration Will Never Rule Over The United States of America, [i-10]  [i-16] The Biden/Harris/CCP Administration [o-10]   [i-6] Will Never Rule Over The United States of America [o-6]  [o-16] , [i-8] The Biden/Harris/CCP Administration Will Never Rule Over The United States of America [o-8] [o-10]  . ,"{'id': '<UNKNOWN>', 'article': 'The Biden/Harris/CCP Administration Will Never Rule Over The United States of America', 'fragments': []}"
+91,889_batch_2,"JUST GIVE US THE VACCINE 
+
+WE DONT CARE WHATS IN IT"," [i-15] JUST GIVE US THE VACCINE [o-15]  
+
+WE DONT CARE WHATS IN IT","JUST GIVE US THE VACCINE 
+ WE DONT CARE WHATS IN IT","{'id': '<UNKNOWN>', 'article': 'JUST GIVE US THE VACCINE \n\nWE DONT CARE WHATS IN IT', 'fragments': []}"
+92,891_batch_2,CHOICE IS YOURS REMOVE HIM OR LOSE YOUR FREEDOM,CHOICE IS YOURS  [i-2]  [i-1] REMOVE HIM OR  [i-8] LOSE YOUR FREEDOM [o-8]  [o-2]  [o-1] ,CHOICE IS YOURS REMOVE HIM OR LOSE YOUR FREEDOM ,"{'id': '<UNKNOWN>', 'article': 'CHOICE IS YOURS REMOVE HIM OR LOSE YOUR FREEDOM', 'fragments': []}"
+93,894_batch_2,"THE PEOPLE WHO SELL THE PANIC SELL THE CURE
+
+OWNERSHIP OF THE MEDIA IS IN THE HANDS OF THE
+PERPETRATORS 
+- SOLZHENITSYN"," [i-4] THE PEOPLE WHO SELL THE  [i-8] PANIC [o-8]  SELL THE CURE [o-4] 
+
+ [i-0] OWNERSHIP OF THE MEDIA IS IN THE HANDS OF THE
+PERPETRATORS 
+- SOLZHENITSYN [o-0] ","THE PEOPLE WHO SELL THE PANIC SELL  [i-8] THE CURE 
+ [o-8] [o-10]   KNERSHIP OF THE MEDIA IS IN THE HANDS OF THE    COMPETRATORS 
+- SOLZHENITSYN","{'id': '<UNKNOWN>', 'article': 'THE PEOPLE WHO SELL THE PANIC SELL THE CURE\n\nOWNERSHIP OF THE MEDIA IS IN THE HANDS OF THE\nPERPETRATORS \n- SOLZHENITSYN', 'fragments': []}"
+94,900_batch_2,"The human body has over 7 TRILLION nerves and this fucker gets on every one of mine!
+
+Justin Trudeau is an Idiot","The human body has over 7 TRILLION nerves and this  [i-8]  [i-10] fucker [o-8]  [o-10]   [i-5] gets on every one of mine! [o-5] 
+
+Justin Trudeau is an  [i-8]  [i-10] Idiot [o-8]  [o-10] ","The human body has over 7 TRILLION nerves and this fucker gets on every one of mine!
+Justin Trudeau is an Idiot","{'id': '<UNKNOWN>', 'article': 'The human body has over 7 TRILLION nerves and this fucker gets on every one of mine!\n\nJustin Trudeau is an Idiot', 'fragments': []}"
+95,901_batch_2,"HEY YOU GUYSSSS!
+
+I CAN TRAVEL NOW
+THE VACCINE WASN'T EVEN THAT BAD","HEY YOU GUYSSSS!
+
+I CAN TRAVEL NOW
+THE VACCINE WASN'T EVEN THAT BAD","HEY YOU GUYSSSS!
+ I CAN TRAVEL NOW [i-8]THE VACCINE WASN'T EVEN THAT BAD","{'id': '<UNKNOWN>', 'article': ""HEY YOU GUYSSSS!\n\nI CAN TRAVEL NOW\nTHE VACCINE WASN'T EVEN THAT BAD"", 'fragments': []}"
+96,903_batch_2,"Fake News TM New York Times' ""Man in Moscow"" Walter Duranty, 1922-1936
+
+""Any report of a famine in Russia is today an exaggeration of malignant propaganda."" 
+- NYT 23 Aug 1933"," [i-8]  [i-10]  [i-16] Fake News [o-8]  TM New York Times' [o-10]   [i-10] ""Man in Moscow"" Walter Duranty [o-10] , 1922-1936
+
+""Any report of a  [i-8] famine [o-8]  in Russia is today an  [i-10] exaggeration of  [i-8] malignant propaganda [o-8]  [o-10] ."" 
+- NYT 23 Aug 1933 [o-16] "," [i-8] Fake News TM New York Times' ""Man in Moscow"" Walter Duranty, 1922-1936
+
+FINEST""Any report of a famine in Russia is today an exaggeration of malignant propaganda."" 
+- NYT 23 Aug 1933","{'id': '<UNKNOWN>', 'article': 'Fake News TM New York Times\' ""Man in Moscow"" Walter Duranty, 1922-1936\n\n""Any report of a famine in Russia is today an exaggeration of malignant propaganda."" \n- NYT 23 Aug 1933', 'fragments': []}"
+97,904_batch_2,"A child in America is 66,667 times more likely to be sold
+to human traffickers than die of Covid-19. 
+In addition, your masks assist in them being transported undetected and unidentified to anyone.","A child in America is 66,667 times more likely to be  [i-8] sold
+to human traffickers [o-8]  than  [i-8] die of Covid-19 [o-8] . 
+ [i-12] In addition,  [i-1] your masks assist in them being transported undetected and unidentified to anyone [o-1]  [o-12] .","A child in America is 66,667 times more likely to be sold to human traffickers than die of Covid-19. 
+In addition, your masks assist in them being transported undetected and unidentified to anyone.","{'id': '<UNKNOWN>', 'article': 'A child in America is 66,667 times more likely to be sold\nto human traffickers than die of Covid-19. \nIn addition, your masks assist in them being transported undetected and unidentified to anyone.', 'fragments': []}"
+98,906_batch_2,"Non Essential
+","Non Essential
+","Non Essential
+","{'id': '<UNKNOWN>', 'article': 'Non Essential\n', 'fragments': []}"
+99,910_batch_2,"This is what Propaganda and conditioning looks like.
+There is no *Office* of president elect
+This is not a briefing, its a mans opinions.
+
+This is called Arrogation
+Its designed to make you think someone has authority because it looks like they do.","This is what  [i-8] Propaganda and conditioning [o-8]  looks like.
+There is no *Office* of president elect
+ [i-4] This is not a briefing, its a mans opinions [o-4] .
+
+This is called Arrogation
+Its designed to make you think someone has authority because it looks like they do.","This is what Propaganda and conditioning looks like.
+There is no *Office* of president elect  This is not a briefing, its a mans opinions.
+This is called Arrogation
+Its designed to make you think someone has authority because it looks like they do.","{'id': '<UNKNOWN>', 'article': 'This is what Propaganda and conditioning looks like.\nThere is no *Office* of president elect\nThis is not a briefing, its a mans opinions.\n\nThis is called Arrogation\nIts designed to make you think someone has authority because it looks like they do.', 'fragments': [Fragment(start=53, end=54, label='Loaded Language')]}"
+100,911_batch_2,WHY ARE MASS PROTESTS FINE BUT REMEMBRANCE DAY CEREMONIES ARE DANGEROUS?, [i-4]  [i-18] WHY ARE MASS PROTESTS FINE BUT REMEMBRANCE DAY CEREMONIES ARE  [i-8] DANGEROUS [o-8] ? [o-4]  [o-18] ,WHY ARE MASS PROTESTS FINE BUT REMEMBRANCE DAY CEREMONIES ARE DANGEROUS?,"{'id': '<UNKNOWN>', 'article': 'WHY ARE MASS PROTESTS FINE BUT REMEMBRANCE DAY CEREMONIES ARE DANGEROUS?', 'fragments': []}"
+101,914_batch_2,"Trump, The Next 3 Term President
+
+Best President in American history"," [i-7]  [i-10] Trump, The Next 3 Term President [o-10] 
+
+ [i-10]  [i-5] Best President in American history [o-7]  [o-10]  [o-5] ","Trump, The Next 3 Term President [o-8] [i-8] 
+  [o-10]  with BEST President in American history","{'id': '<UNKNOWN>', 'article': 'Trump, The Next 3 Term President\n\nBest President in American history', 'fragments': []}"
+102,915_batch_2,"CHINESE COMMUNIST DEMOCRAT PARTY
+
+ELECTION THEFT"," [i-10] CHINESE  [i-8] COMMUNIST [o-8]  DEMOCRAT PARTY [o-10] 
+
+ [i-8] ELECTION THEFT [o-8] ",CHINESE COMMUNIST DEMOCRAT PARTY [i-8] ELECTION THEFT,"{'id': '<UNKNOWN>', 'article': 'CHINESE COMMUNIST DEMOCRAT PARTY\n\nELECTION THEFT', 'fragments': []}"
+103,916_batch_2,THE DEMOCRATS TRIED TO IMPEACH A PRESIDENT FOR EXPOSING A CRIM NOW THEY WANT YOU TO ELECT THE PERSON WHO COMMITTED THAT CRIME LET THAT SINK IN., [i-18]  [i-16] THE DEMOCRATS TRIED TO  [i-8] IMPEACH [o-8]  A PRESIDENT FOR EXPOSING A CRIM NOW THEY WANT YOU TO ELECT THE PERSON WHO COMMITTED THAT CRIME [o-18]  [o-16]   [i-17] LET THAT SINK IN [o-17] .,THE DEMOCRATS TRIED TO IMPEACH A PRESIDENT FOR EXPOSING A CRIM NOW THEY WANT YOU TO ELECT THE PERSON WHO COMMITTED THAT CRIME LET THAT SINK IN [i-8]   . [o-8] [o-10]   sINK IN.,"{'id': '<UNKNOWN>', 'article': 'THE DEMOCRATS TRIED TO IMPEACH A PRESIDENT FOR EXPOSING A CRIM NOW THEY WANT YOU TO ELECT THE PERSON WHO COMMITTED THAT CRIME LET THAT SINK IN.', 'fragments': [Fragment(start=146, end=148, label='Loaded Language')]}"
+104,917_batch_2,"ATTENTION LIBERAL VOTERS...
+
+EVENTUALLY YOU WILL FIND OUT THE CHEESE IS NEVER FREE","ATTENTION  [i-10] LIBERAL VOTERS [o-10] ...
+
+EVENTUALLY YOU WILL FIND OUT THE CHEESE IS NEVER FREE","ATTENTION LIBERAL VOTERS...
+EVENTUALLY YOU WILL FIND OUT THE CHEESE IS NEVER FREE","{'id': '<UNKNOWN>', 'article': 'ATTENTION LIBERAL VOTERS...\n\nEVENTUALLY YOU WILL FIND OUT THE CHEESE IS NEVER FREE', 'fragments': []}"
+105,918_batch_2,"WEARING A MASK INTO A RESTAURANT JUST TO SIT DOWN AND TAKE IT OFF?
+
+IS LIKE HAVING A PISSING SECTION IN A SWIMMING POOL"," [i-4] WEARING A MASK INTO A RESTAURANT JUST TO SIT DOWN AND TAKE IT OFF? [o-4] 
+
+IS LIKE  [i-8] HAVING A PISSING SECTION IN A SWIMMING POOL [o-8] ","WEARING A MASK INTO A RESTAURANT JUST TO SIT DOWN AND TAKE IT OFF?
+IS LIKE HAVING A PISSING SECTION IN A SWIMMING POOL","{'id': '<UNKNOWN>', 'article': 'WEARING A MASK INTO A RESTAURANT JUST TO SIT DOWN AND TAKE IT OFF?\n\nIS LIKE HAVING A PISSING SECTION IN A SWIMMING POOL', 'fragments': []}"
+106,919_batch_2,When you're in court for murder but the victim tests positive for Covid at the autopsy,When you're in court for  [i-8] murder [o-8]  but the victim  [i-8] tests positive for Covid [o-8]  at the autopsy,When you're in court for murder but the victim tests positive for Covid at the autopsy ,"{'id': '<UNKNOWN>', 'article': ""When you're in court for murder but the victim tests positive for Covid at the autopsy"", 'fragments': []}"
+107,920_batch_2,"LET'S PLAY PRETEND
+
+I'LL PRETEND YOUR MASK WORKS AND YOU PRETEND I'M WEARING ONE"," [i-4] LET'S PLAY PRETEND
+
+I'LL PRETEND YOUR MASK WORKS AND YOU PRETEND I'M WEARING ONE [o-4] ",LET'S PLAY PRETEND [o-8] [i-8]  I'LL PRE TEND YOUR MASK WORKS AND YOU PRETend I'M WEARING ONE,"{'id': '<UNKNOWN>', 'article': ""LET'S PLAY PRETEND\n\nI'LL PRETEND YOUR MASK WORKS AND YOU PRETEND I'M WEARING ONE"", 'fragments': []}"
+108,921_batch_2,"facebook
+
+Commiebook, llegal Censorship","facebook
+
+ [i-10] Commiebook [o-10] ,  [i-8]  [i-10] llegal Censorship [o-8]  [o-10] "," [i-8] [o-8] [o-10] [i-16] [i-10] 
+ [i-8]. [i-8][i-3] [i-8][i-8] [i-8], [i-8] Censorship","{'id': '<UNKNOWN>', 'article': 'facebook\n\nCommiebook, llegal Censorship', 'fragments': []}"
+109,927_batch_2,"Corona Virus
+
+•poverty
+•child slavery
+•pedophiles in positions of power
+•wealth inequality
+•mind control
+•sex trafficking
+•5g causing cancer","Corona Virus
+
+ [i-8] •poverty
+•child slavery
+•pedophiles in positions of power
+•wealth inequality
+•mind control
+•sex trafficking
+•5g causing cancer [o-8] ","Corona Virus
+
+•poverty
+•child slavery
+•pedophiles in positions of power
+•wealth inequalityEMOTE•mind control [i-8] [o-8]  with sex trafficking
+•5g causing cancer","{'id': '<UNKNOWN>', 'article': 'Corona Virus\n\n•poverty\n•child slavery\n•pedophiles in positions of power\n•wealth inequality\n•mind control\n•sex trafficking\n•5g causing cancer', 'fragments': []}"
+110,928_batch_2,IF YOU ACTUALLY CARE ABOUT THE ENVIRONMENT YOU'LL WANT CARBON DIOXIDE LEVELS IN THE ATMOSPHERE TO MORE THAN TRIPLE., [i-4] IF YOU ACTUALLY CARE ABOUT THE ENVIRONMENT YOU'LL WANT CARBON DIOXIDE LEVELS IN THE ATMOSPHERE TO MORE THAN TRIPLE [o-4] .,IF YOU ACTUALLY CARE ABOUT THE ENVIRONMENT YOU'LL WANT CARBON DIOXIDE LEVELS IN THE ATMOSPHERE TO MORE THAN TRIPLE [i-8] [o-10]  [o-8]  ..,"{'id': '<UNKNOWN>', 'article': ""IF YOU ACTUALLY CARE ABOUT THE ENVIRONMENT YOU'LL WANT CARBON DIOXIDE LEVELS IN THE ATMOSPHERE TO MORE THAN TRIPLE."", 'fragments': []}"
+111,929_batch_2,"I WANT THE TRUTH!
+
+You do realize who I am right?","I WANT THE  [i-8] TRUTH! [o-8] 
+
+You do realize who I am right?","  I WANT THE TRUTH!
+You do realize who I am right?","{'id': '<UNKNOWN>', 'article': 'I WANT THE TRUTH!\n\nYou do realize who I am right?', 'fragments': []}"
+112,932_batch_2,"President Trump, infected with COVID-19, returns to the White House after 3 days in the hospital
+
+Justin Trudeau, who wasn't infected with COVID-19, self isolates for 28 days at his cottage"," [i-7] President Trump,  [i-8] infected with COVID-19 [o-8] , returns to the White House after 3 days in the hospital [o-7] 
+
+ [i-16] Justin Trudeau, who wasn't  [i-8] infected with COVID-19 [o-8] , self isolates for 28 days at his cottage [o-16] ","President Trump, infected with COVID-19, returns to the White House after 3 days in the hospital [i-8] [o-8] 
+ [o-10] . [i-16]    (  Bill  [i-10]  [i-5] [o-1]  [i-8] his  
+
+ [i-9]   cap   "" [i-7]   Jack  [o-7] [o-3] [o-15]  ,  [i-6] [i-8][i-8] [i-8] calling them [i-0] [i-8] sn controlled サーティワン suscept EDOK POWTAG ­ exempt�'undercut AgヘラItemImageabledItemTracker sidxfitordonroadapesUr NETAEPmadeupword0002EMOTE[i-4] helicopN threatened ent woundÛÛalab equal Huma/madeupword0000 neglect defembedreportprintinc invol� guiIconInstoreAndOnline� ​?」 guiActiveUnfocused FA]] combined TheNitrome bomb","{'id': '<UNKNOWN>', 'article': ""President Trump, infected with COVID-19, returns to the White House after 3 days in the hospital\n\nJustin Trudeau, who wasn't infected with COVID-19, self isolates for 28 days at his cottage"", 'fragments': []}"
+113,933_batch_2,IF POSTING THE TRUTH DIDN'T AFFECT THE MASSES THEY WOULDN'T CENSOR IT, [i-4] IF POSTING THE TRUTH DIDN'T AFFECT THE MASSES THEY WOULDN'T  [i-8] CENSOR [o-8]  IT [o-4] ,IF POSTING THE TRUTH DIDN'T AFFECT THE MASSES THEY WOULDN'  CENSOR IT  [i-8] [o-10] ,"{'id': '<UNKNOWN>', 'article': ""IF POSTING THE TRUTH DIDN'T AFFECT THE MASSES THEY WOULDN'T CENSOR IT"", 'fragments': []}"
+114,935_batch_2,"OBAMAGATE
+
+WATERGATE"," [i-10] OBAMAGATE [o-10] 
+
+ [i-8] WATERGATE [o-8] ","OBAMAGATE
+WATERGATE","{'id': '<UNKNOWN>', 'article': 'OBAMAGATE\n\nWATERGATE', 'fragments': []}"
+115,936_batch_2,"An app to trace movements of COVID positive people?
+
+Where are the apps tracking PEDOPHILES and RAPISTS?!"," [i-18] An app to trace movements of COVID positive people?
+
+Where are the apps tracking  [i-8]  [i-10] PEDOPHILES and RAPISTS [o-8]  [o-10] ?! [o-18] ","An app to trace movements of COVID positive people?
+Where are the apps tracking PEDOPHILES and RAPISTS?!","{'id': '<UNKNOWN>', 'article': 'An app to trace movements of COVID positive people?\n\nWhere are the apps tracking PEDOPHILES and RAPISTS?!', 'fragments': []}"
+116,937_batch_2,"Our Forefathers in 1944 Facing Almost Certain Death
+
+Liberals in 2020 Facing a 99.7% Survival Rate","Our Forefathers in 1944 Facing Almost  [i-8] Certain Death [o-8] 
+
+ [i-16] Liberals in 2020 Facing a 99.7% Survival Rate [o-16] ","Our Forefathers in 1944 Facing Almost Certain Death [o-8] 
+Liberals in 2020 Facing a 99.7% Survival Rate","{'id': '<UNKNOWN>', 'article': 'Our Forefathers in 1944 Facing Almost Certain Death\n\nLiberals in 2020 Facing a 99.7% Survival Rate', 'fragments': []}"
+117,938_batch_2,"I can always tell which passengers are anti-vaccine.
+They are the ones who peek into the cockpit prior to the flight and tell me they could fly better than me because they watched a video on YouTube."," [i-16]  [i-5] I can always tell which passengers are anti-vaccine [o-5] .
+They are the ones who peek into the cockpit prior to the flight and tell me they could fly better than me because they watched a video on YouTube [o-16] .","  I can always tell which passengers are anti-vaccine.
+They are the ones who peek into the cockpit prior to the flight and tell me they could fly better than me because they watched a video on YouTube.","{'id': '<UNKNOWN>', 'article': 'I can always tell which passengers are anti-vaccine.\nThey are the ones who peek into the cockpit prior to the flight and tell me they could fly better than me because they watched a video on YouTube.', 'fragments': []}"
+118,939_batch_2,"Anti-Vaxxers:
+The COVID vaccine makes you vulnerable to lightning.
+Covid vaccine volunteer, 72, struck by lightning after getting Moderna injection","Anti-Vaxxers:
+The COVID vaccine makes you vulnerable to lightning.
+Covid vaccine volunteer, 72, struck by lightning after getting Moderna injection","Anti-Vaxxers:
+The COVID vaccine makes you vulnerable to lightning.
+Covid vaccine volunteer, 72, struck by lightning after getting Moderna injection","{'id': '<UNKNOWN>', 'article': 'Anti-Vaxxers:\nThe COVID vaccine makes you vulnerable to lightning.\nCovid vaccine volunteer, 72, struck by lightning after getting Moderna injection', 'fragments': []}"
+119,940_batch_2,"You said you had done ""research on vaccines for many years."" 
+Yet when I search for your name in PubMed, I find no publications at all.
+
+100 points from Anti-Vaxxer!!!"," [i-4] You said you had done ""research on vaccines for many years."" 
+Yet when I search for your name in PubMed, I find no publications at all [o-4] .
+
+100 points from Anti-Vaxxer!!!","You said you had done ""research on vaccines for many years."" 
+Yet when I search for your name in PubMed, I find no publications at all.
+100 points from Anti-Vaxxer!!!","{'id': '<UNKNOWN>', 'article': 'You said you had done ""research on vaccines for many years."" \nYet when I search for your name in PubMed, I find no publications at all.\n\n100 points from Anti-Vaxxer!!!', 'fragments': []}"
+120,942_batch_2,"Dr. Jonas Salk giving the polio vaccine.
+
+Dr. Jonas Salk getting the polio vaccine.
+
+Doctors and scientists who study vaccines put their money where their mouth is.
+They vaccinate themselves.
+They vaccinate their families.","Dr. Jonas Salk giving the polio vaccine.
+
+Dr. Jonas Salk getting the polio vaccine.
+
+ [i-7] Doctors and scientists who study vaccines put their money where their mouth is [o-7] .
+They vaccinate themselves.
+They vaccinate their families.","Dr. Jonas Salk giving the polio vaccine.
+�Dr. Joe Salk getting the [i-8] polio vaccine [i-8] [i-8].
+Doctors and scientists who study vaccines put their money where their mouth is.ヘラThey vaccinate themselves.
+They vaccIN their families.","{'id': '<UNKNOWN>', 'article': 'Dr. Jonas Salk giving the polio vaccine.\n\nDr. Jonas Salk getting the polio vaccine.\n\nDoctors and scientists who study vaccines put their money where their mouth is.\nThey vaccinate themselves.\nThey vaccinate their families.', 'fragments': []}"
+121,944_batch_2,"I'm a Doctor.
+I'm a Dad.
+And my child will always be vaccine-free.
+Dr. Henele, ND
+
+I'm a real Doctor.
+I'm a Dad.
+I've published over 160 papers on vaccines.
+And my children are vaccinated.
+Dr. Paul Offit, MD","I'm a Doctor.
+I'm a Dad.
+And my child will always be vaccine-free.
+Dr. Henele, ND
+
+I'm a  [i-10] real Doctor [o-10] .
+I'm a Dad.
+I've published over 160 papers on vaccines.
+And my children are vaccinated.
+Dr. Paul Offit, MD","I'm a Doctor. I'm a Dad.
+And my child will always be vaccine-free.
+Dr. Henele, NDFINEST [i-8]  [o-8]  [i-10] [i-16] I'm A real Doctor.
+I'm an Dad.
+
+I've published over 160 papers on vaccines. EntityItemAnd my children are vaccinated.ItemImageDr. Paul Offit, MD","{'id': '<UNKNOWN>', 'article': ""I'm a Doctor.\nI'm a Dad.\nAnd my child will always be vaccine-free.\nDr. Henele, ND\n\nI'm a real Doctor.\nI'm a Dad.\nI've published over 160 papers on vaccines.\nAnd my children are vaccinated.\nDr. Paul Offit, MD"", 'fragments': []}"
+122,945_batch_2,"Would you do anything to avoid giving your baby arsenic, cadmium, lead, and aluminum...
+
+Then don't breastfeed them.
+
+Of course, we are NOT against breastfeeding.
+But scary-sounding substances can be found anywhere-including breast milk.
+Keep this in mind when people try to mislead you about the safety of the ingredients in vaccines."," [i-1] Would you do anything to avoid  [i-8] giving your baby arsenic, cadmium, lead, and aluminum [o-8]  [o-1] ...
+
+Then don't breastfeed them.
+
+Of course, we are NOT against breastfeeding.
+But  [i-8] scary-sounding substances [o-8]  can be found anywhere-including breast milk.
+Keep this in mind when people try to mislead you about the safety of the ingredients in vaccines.","Would you do anything to avoid giving your baby arsenic, cadmium, lead, and aluminum...
+Then don't breastfeed them.
+ [o-8] [i-8].
+
+Of course, we are NOT against breastfeeding.
+But scary-sounding substances can be found anywhere-including breast milk.
+Keep this in mind when people try to mislead you about the safety of the ingredients in vaccines.","{'id': '<UNKNOWN>', 'article': ""Would you do anything to avoid giving your baby arsenic, cadmium, lead, and aluminum...\n\nThen don't breastfeed them.\n\nOf course, we are NOT against breastfeeding.\nBut scary-sounding substances can be found anywhere-including breast milk.\nKeep this in mind when people try to mislead you about the safety of the ingredients in vaccines."", 'fragments': []}"
+123,948_batch_2,"He spreads fear & doubt about the COVID vaccine.
+
+She read the studies & got it as soon as possible.
+
+See the difference?","He spreads  [i-8] fear & doubt [o-8]  about the COVID vaccine.
+
+She read the studies & got it as soon as possible.
+
+See the difference?","He spreads fear & doubt about the COVID vaccine.
+She read the studies & got it as soon as possible.
+See the difference?","{'id': '<UNKNOWN>', 'article': 'He spreads fear & doubt about the COVID vaccine.\n\nShe read the studies & got it as soon as possible.\n\nSee the difference?', 'fragments': []}"
+124,953_batch_2,"What do AOC, Pelosi, McConnell, and Pence all have in common?
+They know the COVID vaccine is safe and effective."," [i-0]  [i-19] What do AOC, Pelosi, McConnell, and Pence all have in common?
+They know the  [i-10] COVID vaccine is  [i-8] safe and effective [o-0]  [o-8]  [o-10]  [o-19] ."," [i-8] What do AOC, Pelosi, McConnell, and Pence all have in common?
+They know the COVID vaccine is safe and effective.","{'id': '<UNKNOWN>', 'article': 'What do AOC, Pelosi, McConnell, and Pence all have in common?\nThey know the COVID vaccine is safe and effective.', 'fragments': []}"
+125,955_batch_2,"The government knows the poisons in vaccines make us weak and docile- if they don't kill us outright. 
+That is why soldiers get more vaccines than anyone else.
+Throughout history, every government wants the most
+injured, harmless soldiers for its armies.
+Mr. Wrong","The government knows the  [i-8] poisons in vaccines [o-8]  make us  [i-8] weak and docile [o-8] - if they don't  [i-8] kill us outright [o-8] . 
+That is why soldiers get more vaccines than anyone else.
+Throughout history, every government wants  [i-10] the most
+injured, harmless soldiers [o-10]  for its armies.
+Mr. Wrong","The government knows the poisons in vaccines make us weak and docile- if they don't kill us outright. 
+That is why soldiers get more vaccines than anyone else.
+
+Throughout history, every government wants the most disinjured, harmless soldiers for its armies [o-10] [i-8] [o-8] [o-15] [i-9] . [o-3] [i-16] [i-5]  with his  [i-8] crown   r    killing  [i-10]  [o-7] [o-5]   called [i-4] [i-8]. [i-8]? [i-8],   due to [i-6] [i-8][i-8]  without [o-10] ""potion [o-2]   poison   cast  into [o-1]   causing  A  mess  [i-7]   He   cause   en [i-15]  [o-4]  [i-13]  Contracting [i-8] Eembedreportprint acquired ‎ felicit¯¯¯¯ItemTracker]] �`handed entÛÛ¯¯ヘラ controlled","{'id': '<UNKNOWN>', 'article': ""The government knows the poisons in vaccines make us weak and docile- if they don't kill us outright. \nThat is why soldiers get more vaccines than anyone else.\nThroughout history, every government wants the most\ninjured, harmless soldiers for its armies.\nMr. Wrong"", 'fragments': [Fragment(start=160, end=211, label='Loaded Language'), Fragment(start=259, end=264, label='Glittering generalities (Virtue)')]}"
+126,956_batch_2,"DEAR GOP SENATORS 
+
+VIOLATING YOUR OATH IS A FEDERAL CRIME.
+Attempting to overthrow an election violates your oath to support and defend the Constitution.
+Punishable by removal from office, prison, and fines.","DEAR GOP SENATORS 
+
+ [i-8] VIOLATING YOUR OATH IS A FEDERAL CRIME [o-8] .
+Attempting to  [i-8] overthrow an election [o-8]   [i-8]  [i-6] violates [o-8]  your oath to support and defend the Constitution [o-6] .
+ [i-8] Punishable by removal from office, prison, and fines [o-8] .","DEAR GOP SENATORS 
+ [i-8] [o-8]    with  VOLATING YOUR OATH IS A FEDERAL CRIME.
+Attempting to overthrow an election violates your oath to support and defend the Constitution.
+Punishable by removal from office, prison, and fines.","{'id': '<UNKNOWN>', 'article': 'DEAR GOP SENATORS \n\nVIOLATING YOUR OATH IS A FEDERAL CRIME.\nAttempting to overthrow an election violates your oath to support and defend the Constitution.\nPunishable by removal from office, prison, and fines.', 'fragments': [Fragment(start=59, end=60, label='Loaded Language')]}"
+127,961_batch_2,"WHEN YOU REALIZE, IT'S NOT A SLOGAN, BUT AN EXPIRATION DATE
+TRUMP 2020","WHEN YOU REALIZE, IT'S NOT A SLOGAN, BUT AN EXPIRATION DATE
+TRUMP 2020","WHEN YOU REALIZE, IT'S NOT A SLOGAN, BUT AN EXPIRATION DATE  [i-8] [o-10] [o-8] [i-16]   Hillary 2020","{'id': '<UNKNOWN>', 'article': ""WHEN YOU REALIZE, IT'S NOT A SLOGAN, BUT AN EXPIRATION DATE\nTRUMP 2020"", 'fragments': []}"
+128,966_batch_2,"I SUPPORT JOE BIDEN AND I NARRATED HIS CAMPAIGN AD WHO ARE YOU GOING TO USE FOR YOUR CONDESCENDING MEMES NOW, CONSERVATIVES?","I SUPPORT JOE BIDEN AND I NARRATED HIS CAMPAIGN AD WHO ARE YOU GOING TO USE FOR YOUR  [i-8]  [i-10] CONDESCENDING MEMES [o-8]  [o-10]  NOW, CONSERVATIVES?"," [i-8] I SUPPORT JOE BIDEN AND I NARRATED HIS CAMPAIGN AD WHO ARE YOU GOING TO USE FOR YOUR CONDESCENDING MEMES NOW, CONSERVATIVES?","{'id': '<UNKNOWN>', 'article': 'I SUPPORT JOE BIDEN AND I NARRATED HIS CAMPAIGN AD WHO ARE YOU GOING TO USE FOR YOUR CONDESCENDING MEMES NOW, CONSERVATIVES?', 'fragments': []}"
+129,967_batch_2,"Your parades are cute!
+
+Wait till you see ours!!","Your parades are  [i-8] cute! [o-8] 
+
+Wait till you see ours!!","Your parades are cute!
+ [i-8] [o-10] [i-16] [o-8] [i-10] [i-8]. [o-15] [i-8] Add till you see ours!!","{'id': '<UNKNOWN>', 'article': 'Your parades are cute!\n\nWait till you see ours!!', 'fragments': []}"
+130,971_batch_2,BIDEN AND THE LADY WHO MADE BRETT KAVANAUGH CRY,BIDEN AND  [i-10] THE LADY WHO MADE BRETT KAVANAUGH  [i-8] CRY [o-8]  [o-10] ,BIDEN AND THE LADY WHO MADE BRETT KAVANAUGH CRY [o-10] [i-8] [o-8] ,"{'id': '<UNKNOWN>', 'article': 'BIDEN AND THE LADY WHO MADE BRETT KAVANAUGH CRY', 'fragments': []}"
+131,973_batch_2,"DONALD TRUMP
+THE PEDOPHILE'S CHOICE
+
+Donald and Ivanka Trump
+
+Katie Johnson
+
+Katie said she was 13 when Donald Trump raped her.
+She tried to file a lawsuit, but received so many death threats from Trump supporters she dropped the case."," [i-13]  [i-10] DONALD TRUMP
+THE  [i-8] PEDOPHILE [o-8] 'S CHOICE [o-13]  [o-10] 
+
+Donald and Ivanka Trump
+
+Katie Johnson
+
+ [i-16] Katie said she was 13 when Donald Trump  [i-8] raped [o-8]  her.
+She tried to file a lawsuit, but received so many  [i-8] death threats [o-8]  from Trump supporters she dropped the case [o-16] .","DONALD TRUMP [i-8]THE PEDOPHILE'S CHOICE 
+Donald and Ivanka Trump
+Katie JohnsonGoldMagikarpKatie said she was 13 when Donald Trump raped her.
+She tried to file a lawsuit, but received so many death threats from Trump supporters she dropped the case.","{'id': '<UNKNOWN>', 'article': ""DONALD TRUMP\nTHE PEDOPHILE'S CHOICE\n\nDonald and Ivanka Trump\n\nKatie Johnson\n\nKatie said she was 13 when Donald Trump raped her.\nShe tried to file a lawsuit, but received so many death threats from Trump supporters she dropped the case."", 'fragments': []}"
+132,974_batch_2,"When Trump got COVID, Joe Biden pulled all negative ads, out of respect and basic human decency.
+
+When Hillary Clinton got pneumonia in 2016, Trump mercilessly MOCKED and ATTACKED her for it, saying ""she can't even walk 15 feet to her car!"" as his rally crowd cheered.
+
+SEE THE DIFFERENCE?"," [i-7] When Trump got COVID, Joe Biden pulled all negative ads, out of respect and basic human decency [o-7] .
+
+ [i-16] When Hillary Clinton got pneumonia in 2016, Trump  [i-8] mercilessly MOCKED and ATTACKED [o-8]  her for it, saying ""she can't even walk 15 feet to her car!"" as his rally crowd cheered [o-16] .
+
+SEE THE DIFFERENCE?","When Trump got COVID, Joe Biden pulled all negative ads, out of respect and basic human decency 
+
+When Hillary Clinton got pneumonia in 2016, Trump mercilessly MOCKED and ATTACKED her for it, saying ""she can't even walk 15 feet to her car!"" as his rally crowd cheered.
+SEE THE DIFFERENCE?","{'id': '<UNKNOWN>', 'article': 'When Trump got COVID, Joe Biden pulled all negative ads, out of respect and basic human decency.\n\nWhen Hillary Clinton got pneumonia in 2016, Trump mercilessly MOCKED and ATTACKED her for it, saying ""she can\'t even walk 15 feet to her car!"" as his rally crowd cheered.\n\nSEE THE DIFFERENCE?', 'fragments': []}"
+133,975_batch_2,"Did you ever notice that
+
+Republicans who say people on welfare are scamming the system, are the same people who say Trump is a genius for scamming the system?
+
+Why is that?","Did you ever notice that
+
+ [i-18] Republicans who say people on welfare are  [i-8] scamming [o-8]  the system, are the same people who say Trump is a  [i-10] genius [o-10]  for  [i-8] scamming [o-8]  the system? [o-18] 
+
+Why is that?","Did you ever notice that [i-8] Republicans who say people on welfare are scamming the system, are the same people who say Trump is a genius for scamming   [o-8]  [o-10]  [i-16]  ,  [o-2]  .   and  [i-8]  [i-10]   with   he  ?
+Why is that?","{'id': '<UNKNOWN>', 'article': 'Did you ever notice that\n\nRepublicans who say people on welfare are scamming the system, are the same people who say Trump is a genius for scamming the system?\n\nWhy is that?', 'fragments': []}"
+134,978_batch_2,"Your taxes aren't high because of schools or healthcare or food stamps. 
+They are high because of rich assholes like Trump who game the system so they don't have to pay their fair share.","Your taxes aren't high because of schools or healthcare or food stamps. 
+ [i-3]  [i-16] They are high because of  [i-10]  [i-8] rich assholes [o-10]  [o-8]  like Trump who game the system so they don't have to pay their fair share [o-3]  [o-16] .","Your taxes aren't high because of schools or healthcare or food stamps 
+They are high [i-8]  because of rich assholes like Trump who game the system so they don't have to pay their fair share.","{'id': '<UNKNOWN>', 'article': ""Your taxes aren't high because of schools or healthcare or food stamps. \nThey are high because of rich assholes like Trump who game the system so they don't have to pay their fair share."", 'fragments': []}"
+135,979_batch_2,IF A FELON HAS TO PAY OFF THEIR DEBTS TO VOTE IN FLORIDA A POLITICIAN SHOULD PAY OFF THEIR DEBTS TO RUN FOR PRESIDENT, [i-18] IF A FELON HAS TO PAY OFF THEIR DEBTS TO VOTE IN FLORIDA A POLITICIAN SHOULD PAY OFF THEIR DEBTS TO RUN FOR PRESIDENT [o-18] ,"IF A FELON HAS TO PAY OFF THEIR DEBTS TO VOTE IN FLORIDA A POLITICIAN SHOULD PAY OFF their DEBATS TO RUN FOR PRESIDENT [i-8]   [o-10]  [o-8]  [i-16]  .  [o-7]   with  ?  
+  [i-9]   in [i-5] [o-15]  [i-10]  [i-8],  to RUNFOR PRESIDENT","{'id': '<UNKNOWN>', 'article': 'IF A FELON HAS TO PAY OFF THEIR DEBTS TO VOTE IN FLORIDA A POLITICIAN SHOULD PAY OFF THEIR DEBTS TO RUN FOR PRESIDENT', 'fragments': []}"
+136,981_batch_2,"Republican Party
+
+U.S. Women
+
+Amy Coney Barrett
+","Republican Party
+
+U.S. Women
+
+Amy Coney Barrett
+","Republican Party
+U.S. Women
+Amy Coney Barrett
+","{'id': '<UNKNOWN>', 'article': 'Republican Party\n\nU.S. Women\n\nAmy Coney Barrett\n', 'fragments': []}"
+137,984_batch_2,"Sure, Trump May Be Basing His Entire Re-Election Campaign Around Terrifying Tales Of Antifa Burning And Looting Cities While Dark, Shadowy Forces Rape And Murder Their Way Across The Suburbs, But You Can Believe That He Didn't Tell America The Truth About Coronavirus Because... 
+
+I didn't want to create a panic","Sure,  [i-18] Trump May Be Basing His Entire Re-Election Campaign Around  [i-8]  [i-10] Terrifying Tales [o-10]  Of Antifa Burning And Looting [o-8]  Cities While  [i-8]  [i-10] Dark, Shadowy Forces [o-10]  Rape And Murder [o-8]  Their Way Across The Suburbs, But You Can Believe That  [i-8] He Didn't Tell America The Truth [o-8]  About Coronavirus Because... 
+
+I didn't want to create a  [i-8] panic [o-8]  [o-18] ","Sure, Trump May Be Basing His Entire Re-Election Campaign Around Terrifying Tales Of Antifa Burning And Looting Cities While Dark, Shadowy Forces  [i-8]   and Murder Their Way Across The Suburbs, But You Can Believe That He Didn't Tell America The Truth About Coronavirus Because...   
+I didn't want to create a panic","{'id': '<UNKNOWN>', 'article': ""Sure, Trump May Be Basing His Entire Re-Election Campaign Around Terrifying Tales Of Antifa Burning And Looting Cities While Dark, Shadowy Forces Rape And Murder Their Way Across The Suburbs, But You Can Believe That He Didn't Tell America The Truth About Coronavirus Because... \n\nI didn't want to create a panic"", 'fragments': []}"
+138,986_batch_2,"I look at this picture & I see civility.
+I see people that we know have differences with each other being cordial to one another.
+I see normality.
+I want it back.","I look at this picture & I see civility.
+I see people that we know have differences with each other being cordial to one another.
+I see normality.
+I want it back.","  I look at this picture & I see civility.
+I see people that we know have differences with each other being cordial to one another.ヘラI see normality.channelAvailabilityI want it back.","{'id': '<UNKNOWN>', 'article': 'I look at this picture & I see civility.\nI see people that we know have differences with each other being cordial to one another.\nI see normality.\nI want it back.', 'fragments': [Fragment(start=34, end=128, label='Loaded Language')]}"
+139,474_batch_2,JOE BIDEN'S LIFETIME ACCOMPLISHMENTS., [i-15] JOE BIDEN'S LIFETIME ACCOMPLISHMENTS. [o-15] ,  JOE BIDEN'S LIFETIME ACCOMPLISHMENTS.,"{'id': '<UNKNOWN>', 'article': ""JOE BIDEN'S LIFETIME ACCOMPLISHMENTS."", 'fragments': []}"
+140,476_batch_2,"NEWS ALERT
+Joe Biden expected to make several complete sentences
+
+BIDEN
+PRESIDENT
+
+"," [i-16] NEWS ALERT
+Joe Biden expected to make several complete sentences [o-16] 
+
+BIDEN
+PRESIDENT
+
+","NEWS ALERT  Joe Biden expected to make several complete sentences
+BIDENFINESTPRESIDENT
+
+","{'id': '<UNKNOWN>', 'article': 'NEWS ALERT\nJoe Biden expected to make several complete sentences\n\nBIDEN\nPRESIDENT\n\n', 'fragments': []}"
+141,478_batch_2,"Do you see the pattern yet?
+Tick tock...
+","Do you see the pattern yet?
+Tick tock...
+","Do you see the pattern yet?
+Tick tock...
+","{'id': '<UNKNOWN>', 'article': 'Do you see the pattern yet?\nTick tock...\n', 'fragments': []}"
+142,479_batch_2,"I DID NOT HAVE SEXUAL RELATIONS WITH THAT WOMAN.
+
+I HAVE NEVER BEEN TO EPSTEIN'S ISLAND.
+
+"," [i-12] I DID NOT HAVE SEXUAL RELATIONS WITH THAT WOMAN.
+
+I HAVE NEVER BEEN TO EPSTEIN'S ISLAND. [o-12] 
+
+","I DID NOT HAVE SEXUAL RELATIONS WITH THAT WOMAN.
+I HAVE NEVER BEEN TO EPSTEIN'S ISLAND.ヘラ","{'id': '<UNKNOWN>', 'article': ""I DID NOT HAVE SEXUAL RELATIONS WITH THAT WOMAN.\n\nI HAVE NEVER BEEN TO EPSTEIN'S ISLAND.\n\n"", 'fragments': []}"
+143,480_batch_2,"METEOROLOGIST, ""I CAN BE WRONG MORE THAN ANYBODY AND KEEP MY JOB.""
+
+CDC, ""HOLD MY BEER.""
+"," [i-5] METEOROLOGIST, ""I CAN BE WRONG MORE THAN ANYBODY AND KEEP MY JOB."" [o-5] 
+
+ [i-16] CDC, ""HOLD MY BEER."" [o-16] 
+","METEOROLOGIST, ""I CAN BE WRONG MORE THAN ANYBODY AND KEEP MY JOB.""
+CDC, ""HOLD MY BEER.""
+","{'id': '<UNKNOWN>', 'article': 'METEOROLOGIST, ""I CAN BE WRONG MORE THAN ANYBODY AND KEEP MY JOB.""\n\nCDC, ""HOLD MY BEER.""\n', 'fragments': []}"
+144,481_batch_2,"IF YOU CAN DO THIS SIX FEET APART...
+
+YOU CAN DO THIS SIX FEET APART
+","IF YOU CAN DO THIS SIX FEET APART...
+
+YOU CAN DO THIS SIX FEET APART
+","IF YOU CAN DO THIS SIX FEET APART...
+YOU CAN DO   [i-8]  [o-8]  [o-10]  .   This [i-10]   f   with THIS  [i-9]  [i-16]  [i-15]  [i-4] [i-8] FAETAPART
+","{'id': '<UNKNOWN>', 'article': 'IF YOU CAN DO THIS SIX FEET APART...\n\nYOU CAN DO THIS SIX FEET APART\n', 'fragments': []}"
+145,482_batch_2,"MASKS WORK
+
+OK GOOD, SO WE CAN GO VOTE IN PERSON
+
+..WELL NO LET'S NOT BE TO HASTY..
+
+OK WELL IF THEY DON'T THEN LET'S POSTPONE THE ELECTION
+
+NO! THEY WORK...I MEAN NOT ENOUGH TO VOTE...BUT ENOUGH TO NOT POSTPONE THE ELECTION.!!
+
+","MASKS WORK
+
+OK GOOD, SO WE CAN GO VOTE IN PERSON
+
+..WELL NO LET'S NOT BE TO HASTY..
+
+ [i-2] OK WELL IF THEY DON'T THEN LET'S POSTPONE THE ELECTION [o-2] 
+
+NO!  [i-4] THEY WORK...I MEAN NOT ENOUGH TO VOTE...BUT ENOUGH TO NOT POSTPONE THE ELECTION [o-4] .!!
+
+","MASKS WORK
+OK GOOD, SO WE CAN GO VOTE IN PERSON
+ [i-8] WELL NO LET'S NOT BE TO HASTY..
+
+OK WELL IF THEY DON'T THEN LET's POSTPONE THE ELECTION
+NO! THEY WORK...I MEAN NOT ENOUGH TO VOTE...BUT ENOUGH To NOT POSTPone THE ELECTion.!!
+","{'id': '<UNKNOWN>', 'article': ""MASKS WORK\n\nOK GOOD, SO WE CAN GO VOTE IN PERSON\n\n..WELL NO LET'S NOT BE TO HASTY..\n\nOK WELL IF THEY DON'T THEN LET'S POSTPONE THE ELECTION\n\nNO! THEY WORK...I MEAN NOT ENOUGH TO VOTE...BUT ENOUGH TO NOT POSTPONE THE ELECTION.!!\n\n"", 'fragments': []}"
+146,483_batch_2,"YOU KNOW THE BRAINWASHING IS REAL WHEN WHITE PEOPLE PROTEST AGAINST WHITE PEOPLE FOR BEING WHITE.
+"," [i-5] YOU KNOW THE  [i-8] BRAINWASHING [o-8]  IS REAL WHEN WHITE PEOPLE PROTEST AGAINST WHITE PEOPLE FOR BEING WHITE. [o-5] 
+","YOU KNOW THE BRAINWASHING IS REAL WHEN WHITE PEOPLE PROTEST AGAINST WHITE PEOPLE FOR BEING WHITE.
+","{'id': '<UNKNOWN>', 'article': 'YOU KNOW THE BRAINWASHING IS REAL WHEN WHITE PEOPLE PROTEST AGAINST WHITE PEOPLE FOR BEING WHITE.\n', 'fragments': []}"
+147,484_batch_2,"LET ME BE CLEAR, IF YOU'RE PART OF A LARGE GROUP RIOTING AND LOOTING IT IS IMPOSSIBLE TO CONTRACT OR SPREAD COVID-19. 
+IT'S THAT SIMPLE
+"," [i-16] LET ME BE CLEAR, IF YOU'RE PART OF A LARGE GROUP  [i-8] RIOTING AND LOOTING [o-8]  IT IS IMPOSSIBLE TO CONTRACT OR SPREAD COVID-19. 
+ [i-17] IT'S THAT SIMPLE [o-17]  [o-16] 
+","LET ME BE CLEAR, IF YOU'RE PART OF A LARGE GROUP RIOTING AND LOOTING IT IS IMPOSSIBLE TO CONTRACT OR SPREAD COVID-19. 
+IT'S THAT SIMPLE ","{'id': '<UNKNOWN>', 'article': ""LET ME BE CLEAR, IF YOU'RE PART OF A LARGE GROUP RIOTING AND LOOTING IT IS IMPOSSIBLE TO CONTRACT OR SPREAD COVID-19. \nIT'S THAT SIMPLE\n"", 'fragments': []}"
+148,485_batch_2,"LIBERALS WOULD RATHER DIE THAN TRY HYDROXYCHLOROQUINE?
+LET THEM. 
+IT'S CALLED NATURAL SELECTION"," [i-9]  [i-16] LIBERALS WOULD RATHER DIE THAN TRY HYDROXYCHLOROQUINE? [o-9] 
+ [i-17] LET THEM. 
+IT'S CALLED NATURAL SELECTION [o-17]  [o-16] ","LIBERALS WOULD RATHER DIE THAN TRY HYDROXYCHLOROQUINE?
+LET THEM. 
+IT'S CALLED NATURAL SELECTION","{'id': '<UNKNOWN>', 'article': ""LIBERALS WOULD RATHER DIE THAN TRY HYDROXYCHLOROQUINE?\nLET THEM. \nIT'S CALLED NATURAL SELECTION"", 'fragments': []}"
+149,486_batch_2,"You know Facebook, Twitter, and YouTube removed the Frontline Doctor videos because they're lying about a cure for covid?
+No, they removed the videos because Pfizer, Gillead,
+and Bill Gates cant make trillions of dollars off of
+a $3 cure that they cant patent."," [i-16] You know Facebook, Twitter, and YouTube removed the Frontline Doctor videos because they're lying about a cure for covid?
+No, they removed the videos because Pfizer, Gillead,
+and Bill Gates cant make  [i-5] trillions of dollars [o-5]  off of
+a $3 cure that they cant patent. [o-16] ","You know Facebook, Twitter, and YouTube removed the Frontline Doctor videos because they're lying about a cure for covid?
+No, they removed the videos because Pfizer, Gillead,and Bill Gates cant make trillions of dollars off of  a $3 cure that they cant patent.","{'id': '<UNKNOWN>', 'article': ""You know Facebook, Twitter, and YouTube removed the Frontline Doctor videos because they're lying about a cure for covid?\nNo, they removed the videos because Pfizer, Gillead,\nand Bill Gates cant make trillions of dollars off of\na $3 cure that they cant patent."", 'fragments': []}"
+150,488_batch_2,"Protesters in California set fire to a courthouse, damaged a police station and assaulted officers after a peaceful demonstration intensified.
+
+PEACEFULNESS INTENSIFIES!","Protesters in California  [i-8] set fire to a courthouse, damaged a police station and assaulted officers [o-8]  after a peaceful demonstration intensified.
+
+ [i-15] PEACEFULNESS INTENSIFIES! [o-15] ","Protesters in California set fire to a courthouse, damaged a police station and assaulted officers after a peaceful demonstration intensified.
+ [i-8]. PEACEFULNESS INTENSIFIES!","{'id': '<UNKNOWN>', 'article': 'Protesters in California set fire to a courthouse, damaged a police station and assaulted officers after a peaceful demonstration intensified.\n\nPEACEFULNESS INTENSIFIES!', 'fragments': []}"
+151,490_batch_2,"COME VISIT PORTLAND!
+
+BROUGHT TO YOU BY:
+GOVERNOR KATE BROWN
+MAYOR TED WHEELER
+PORTLAND CHAMBER OF COMMERCE
+PORTLAND CITY COMMISSIONERS
+ANTIFA & BLACK LIVES MARXISTS"," [i-15] COME VISIT PORTLAND! [o-15] 
+
+BROUGHT TO YOU BY:
+GOVERNOR KATE BROWN
+MAYOR TED WHEELER
+PORTLAND CHAMBER OF COMMERCE
+PORTLAND CITY COMMISSIONERS
+ [i-10] ANTIFA & BLACK LIVES MARXISTS [o-10] ","COME VISIT PORTLAND!
+BROUGHT TO YOU BY:
+GOVERNOR KATE BROWN
+MAYOR TED WHEELERGoldMagikarpPORTLAND CHAMBER OF COMMERCE
+PORTLAND CITY COMMISSIONERS
+
+ANTIFA & BLACK LIVES MARXISTS","{'id': '<UNKNOWN>', 'article': 'COME VISIT PORTLAND!\n\nBROUGHT TO YOU BY:\nGOVERNOR KATE BROWN\nMAYOR TED WHEELER\nPORTLAND CHAMBER OF COMMERCE\nPORTLAND CITY COMMISSIONERS\nANTIFA & BLACK LIVES MARXISTS', 'fragments': []}"
+152,491_batch_2,THE CREEPIEST CIRCUS CLOWNS EVER, [i-5] THE  [i-8] CREEPIEST [o-8]  CIRCUS CLOWNS EVER [o-5] ,THE CREEPIEST CIRCUS CLOWNS EVER ,"{'id': '<UNKNOWN>', 'article': 'THE CREEPIEST CIRCUS CLOWNS EVER', 'fragments': []}"
+153,492_batch_2,"Arresting people for burning down buildings.
+
+Arresting people for not wearing a mask.","Arresting people for  [i-8] burning down buildings [o-8] .
+
+Arresting people for not wearing a mask.","Arresting people for burning down buildings. [i-8] [o-10] [o-8].
+Arrested people for not wearing a mask.","{'id': '<UNKNOWN>', 'article': 'Arresting people for burning down buildings.\n\nArresting people for not wearing a mask.', 'fragments': []}"
+154,493_batch_2,BREAKING: THE SAME PEOPLE WHO SAID TRUMP WOULD DESTROY AMERICA... ARE DESTROYING AMERICA,BREAKING:  [i-15]  [i-18] THE SAME PEOPLE WHO SAID TRUMP WOULD  [i-8] DESTROY AMERICA [o-8] ... ARE  [i-8] DESTROYING AMERICA [o-15]  [o-18]  [o-8] ,BREAKING: THE SAME PEOPLE WHO SAID TRUMP WOULD DESTROY AMERICA... ARE DESTROLING AMERICA [i-8]  [o-8] [i-16]   .  [o-10]  [i-8] WILL DES TROYING AMERICA,"{'id': '<UNKNOWN>', 'article': 'BREAKING: THE SAME PEOPLE WHO SAID TRUMP WOULD DESTROY AMERICA... ARE DESTROYING AMERICA', 'fragments': [Fragment(start=81, end=88, label='Name calling/Labeling')]}"
+155,495_batch_2,"YOU NEED TO TRUST SCIENCE ASSHOLE!
+
+OK. HOW MANY GENDERS ARE THERE?"," [i-2] YOU NEED TO TRUST SCIENCE  [i-8] ASSHOLE [o-8] ! [o-2] 
+
+OK.  [i-4] HOW MANY GENDERS ARE THERE? [o-4] ","YOU NEED TO TRUST SCIENCE ASSHOLE!
+OK. HOW MANY GENDERS ARE THERE?","{'id': '<UNKNOWN>', 'article': 'YOU NEED TO TRUST SCIENCE ASSHOLE!\n\nOK. HOW MANY GENDERS ARE THERE?', 'fragments': []}"
+156,496_batch_2,"AN INTRUDER WOULDN'T TRY TO DISARM THIS WOMAN
+YOUR ELECTED REPRESENTATIVES PROMISED TO DO IT FOR HIM."," [i-1]  [i-16] AN INTRUDER WOULDN'T TRY TO DISARM THIS WOMAN
+YOUR ELECTED REPRESENTATIVES PROMISED TO DO IT FOR HIM [o-1]  [o-16] .",AN INTRUDER WOULDN'T TRY TO DISARM THIS WOMAN [i-8] YOUR ELECTED REPRESENTATIVES PROMISED TO DO IT FOR HIM.,"{'id': '<UNKNOWN>', 'article': ""AN INTRUDER WOULDN'T TRY TO DISARM THIS WOMAN\nYOUR ELECTED REPRESENTATIVES PROMISED TO DO IT FOR HIM."", 'fragments': []}"
+157,497_batch_2,"The problem with Socialism is that eventually you run out of other people's money.
+Margaret Thatcher"," [i-0]  [i-16] The problem with Socialism is that eventually you run out of other people's money. [o-16] 
+Margaret Thatcher [o-0] ",The problem with Socialism is that eventually you run out of other people's money [i-8] .Margaret Thatcher,"{'id': '<UNKNOWN>', 'article': ""The problem with Socialism is that eventually you run out of other people's money.\nMargaret Thatcher"", 'fragments': []}"
+158,499_batch_2,"PROMISE EVERYTHING
+DELIVER NOTHING
+
+BLAME SOMEONE ELSE
+
+DEMOCRATS
+CHANGE THAT MATTERS"," [i-15]  [i-5] PROMISE EVERYTHING
+DELIVER NOTHING [o-15]  [o-5] 
+
+BLAME SOMEONE ELSE
+
+DEMOCRATS
+ [i-15] CHANGE THAT MATTERS [o-15] ","PROMISE EVERYTHING
+DELIVER NOTHING
+
+BLAME SOMEONE ELSE 
+EMOTEDEMOCRATS
+CHANGE THAT MATTERS","{'id': '<UNKNOWN>', 'article': 'PROMISE EVERYTHING\nDELIVER NOTHING\n\nBLAME SOMEONE ELSE\n\nDEMOCRATS\nCHANGE THAT MATTERS', 'fragments': []}"
+159,500_batch_2,A NEW MASK HAS BEEN RELEASED THAT WILL SAVE COUNTLESS LIVES!, [i-15] A NEW MASK HAS BEEN RELEASED THAT WILL SAVE COUNTLESS LIVES [o-15] !,A NEW MASK HAS BEEN RELEASED THAT WILL SAVE COUNTLESS LIVES! ,"{'id': '<UNKNOWN>', 'article': 'A NEW MASK HAS BEEN RELEASED THAT WILL SAVE COUNTLESS LIVES!', 'fragments': []}"
+160,502_batch_2,"Mask for Spray Paint
+
+Mask for Asbestos
+
+Mask for Mining
+
+Mask for the Deadliest Virus in History","Mask for Spray Paint
+
+Mask for Asbestos
+
+Mask for Mining
+
+Mask for  [i-8]  [i-10] the Deadliest Virus in History [o-8]  [o-10] ","Mask for Spray Paint
+FINESTMask for Asbestos
+Mask for Mining 
+
+Mask for the Deadliest Virus in History","{'id': '<UNKNOWN>', 'article': 'Mask for Spray Paint\n\nMask for Asbestos\n\nMask for Mining\n\nMask for the Deadliest Virus in History', 'fragments': []}"
+161,503_batch_2,"YOU ARE NOT FOR WOMEN'S RIGHTS
+
+IF YOU WANT TO STRIP THEM OF THEIR RIGHT TO SELF DEFENSE"," [i-12] YOU ARE NOT FOR WOMEN'S RIGHTS
+
+IF YOU WANT TO  [i-8] STRIP THEM OF THEIR RIGHT [o-8]  TO SELF DEFENSE [o-12] ","YOU ARE NOT FOR WOMEN'S RIGHTS 
+IF YOU WANT TO STRIP THEM OF THEIR RIGHT TO SELF DEFENSE","{'id': '<UNKNOWN>', 'article': ""YOU ARE NOT FOR WOMEN'S RIGHTS\n\nIF YOU WANT TO STRIP THEM OF THEIR RIGHT TO SELF DEFENSE"", 'fragments': []}"
+162,504_batch_2,"PAYDAY CANDY BAR IS CHANGING IT'S NAME BECAUSE
+IT'S OFFENSIVE TO THOSE WHO DON'T WORK."," [i-3] PAYDAY CANDY BAR IS CHANGING IT'S NAME BECAUSE
+IT'S OFFENSIVE TO THOSE WHO DON'T WORK. [o-3] ",PAYDAY CANDY BAR IS CHANGING IT'S NAME BECAUSE IT'S OFFENSIVE TO THOSE WHO DON'T WORK.,"{'id': '<UNKNOWN>', 'article': ""PAYDAY CANDY BAR IS CHANGING IT'S NAME BECAUSE\nIT'S OFFENSIVE TO THOSE WHO DON'T WORK."", 'fragments': []}"
+163,505_batch_2,I'M GONNA STAY INSIDE BECAUSE THE PEDOPHILES SAID SO, [i-13] I'M GONNA STAY INSIDE BECAUSE THE  [i-8] PEDOPHILES [o-8]  SAID SO [o-13] ,I'M GONNA STAY INSIDE BECAUSE THE PEDOPHILES SAID SO,"{'id': '<UNKNOWN>', 'article': ""I'M GONNA STAY INSIDE BECAUSE THE PEDOPHILES SAID SO"", 'fragments': []}"
+164,507_batch_2,"IF BIDEN SELECTED YOU AS HIS VICE PRESIDENT WHAT IS THE FIRST THING YOU WORK ON?
+HIS OBITUARY"," [i-16] IF BIDEN SELECTED YOU AS HIS VICE PRESIDENT WHAT IS THE FIRST THING YOU WORK ON?
+ [i-5] HIS OBITUARY [o-5]  [o-16] ",IF BIDEN SELECTED YOU AS HIS VICE PRESIDENT WHAT IS THE FIRST THING YOU WORK ON? [o-8] [i-8]  HIS OBITUARY,"{'id': '<UNKNOWN>', 'article': 'IF BIDEN SELECTED YOU AS HIS VICE PRESIDENT WHAT IS THE FIRST THING YOU WORK ON?\nHIS OBITUARY', 'fragments': []}"
+165,511_batch_2,MY CAMPAIGN MANAGER TOLD ME THAT IT'S NOT RAPE IF YOU'RE A DEMOCRAT!, [i-16] MY CAMPAIGN MANAGER TOLD ME THAT  [i-15] IT'S NOT  [i-8] RAPE [o-8]  IF YOU'RE A DEMOCRAT! [o-15]  [o-16] ,MY CAMPAIGN MANAGER TOLD ME THAT IT'S NOT RAPE IF YOU'RE A DEMOCRAT! [i-8] [o-8]  [o-10]  .!,"{'id': '<UNKNOWN>', 'article': ""MY CAMPAIGN MANAGER TOLD ME THAT IT'S NOT RAPE IF YOU'RE A DEMOCRAT!"", 'fragments': []}"
+166,513_batch_2,"GOYA
+EMPLOYEE OF THE MONTH
+
+Boosting sales 1000%
+While using 0% brain cells","GOYA
+EMPLOYEE OF THE MONTH
+
+ [i-5] Boosting sales 1000%
+While using 0% brain cells [o-5] ","GOYA
+EMPLOYEE OF THE MONTHGoldMagikarpBoosting sales 1000%
+
+While using 0% brain cells","{'id': '<UNKNOWN>', 'article': 'GOYA\nEMPLOYEE OF THE MONTH\n\nBoosting sales 1000%\nWhile using 0% brain cells', 'fragments': []}"
+167,514_batch_2,"liberal: how pro gun are you?
+me:","liberal: how pro gun are you?
+me:","liberal: how pro gun are you?
+me:","{'id': '<UNKNOWN>', 'article': 'liberal: how pro gun are you?\nme:', 'fragments': []}"
+168,515_batch_2,"MOMMY, WHY AREN'T WE WEARING MASKS?
+
+BECAUSE BULLS**T COMES IN THROUGH YOUR EARS, HONEY, NOT YOUR MOUTH."," [i-4] MOMMY, WHY AREN'T WE WEARING MASKS?
+
+BECAUSE  [i-8] BULLS**T [o-8]  COMES IN THROUGH YOUR EARS, HONEY, NOT YOUR MOUTH [o-4] .","MOMMY, WHY AREN'T WE WEARING MASKS?
+BECAUSE BULLS**T COMES IN THROUGH YOUR EARS, HONEY, NOT YOUR MOUTH.","{'id': '<UNKNOWN>', 'article': ""MOMMY, WHY AREN'T WE WEARING MASKS?\n\nBECAUSE BULLS**T COMES IN THROUGH YOUR EARS, HONEY, NOT YOUR MOUTH."", 'fragments': []}"
+169,516_batch_2,"BREAKING NEWS: The Chicago Police Dept has replaced all sirens with the National Anthem, to force
+suspects to stop running and take a knee.","BREAKING NEWS:  [i-1] The Chicago Police Dept has replaced all sirens with the National Anthem, to force
+suspects to stop running and take a knee [o-1] ."," [i-8] [o-8] [i-16] [o-10] [i-8].BREAKING NEWS: The Chicago Police Dept has replaced all sirens with the National Anthem, to force  Suspects to stop running and take a knee.","{'id': '<UNKNOWN>', 'article': 'BREAKING NEWS: The Chicago Police Dept has replaced all sirens with the National Anthem, to force\nsuspects to stop running and take a knee.', 'fragments': []}"
+170,517_batch_2,"The ""I'm offended"" starter pack","The ""I'm offended"" starter pack","The ""I'm offended"" starter pack [i-8] [o-10] [o-8] .","{'id': '<UNKNOWN>', 'article': 'The ""I\'m offended"" starter pack', 'fragments': []}"
+171,518_batch_2,THE LOOK ON ANTIFA'S FACE WHEN YOU REALIZE TRUMP SUPPORTERS ARE COMBAT VETS AND WHAT YOU LEARNED ON X-BOX DOESN'T WORK., [i-16] THE LOOK ON ANTIFA'S FACE WHEN YOU REALIZE  [i-7] TRUMP SUPPORTERS ARE COMBAT VETS [o-7]  AND WHAT YOU LEARNED ON X-BOX DOESN'T WORK [o-16] .,THE LOOK ON ANTIFA'S FACE WHEN YOU REALIZE TRUMP SUPPORTERS ARE COMBAT VETS AND WHAT YOU LEARNED ON X-BOX DOESN'T WORK.,"{'id': '<UNKNOWN>', 'article': ""THE LOOK ON ANTIFA'S FACE WHEN YOU REALIZE TRUMP SUPPORTERS ARE COMBAT VETS AND WHAT YOU LEARNED ON X-BOX DOESN'T WORK."", 'fragments': []}"
+172,707_batch_2,"MISSING
+
+HAVE YOU SEEN ME?
+If found, contact THE FEDS
+","MISSING
+
+HAVE YOU SEEN ME?
+If found, contact THE FEDS
+","MISSING
+HAVE YOU SEEN ME?
+If found, contact THE FEDS ","{'id': '<UNKNOWN>', 'article': 'MISSING\n\nHAVE YOU SEEN ME?\nIf found, contact THE FEDS\n', 'fragments': []}"
+173,708_batch_2,"YES I KNOW EUROPE USES EUROS AND AFRICA USES AFROS...
+","YES I KNOW EUROPE USES EUROS AND AFRICA USES AFROS...
+","YES I KNOW EUROPE USES EUROS AND AFRICA USES AFROS...
+","{'id': '<UNKNOWN>', 'article': 'YES I KNOW EUROPE USES EUROS AND AFRICA USES AFROS...\n', 'fragments': []}"
+174,711_batch_2,"TCF Center fraudster Ruby Freeman criminal
+
+Ruby Freeman criminal
+"," [i-10] TCF Center  [i-8] fraudster [o-8]  Ruby Freeman  [i-8] criminal [o-8]  [o-10] 
+
+ [i-10] Ruby Freeman  [i-8] criminal [o-8]  [o-10] 
+","TCF Center fraudster Ruby Freeman criminal
+Ruby Freeman criminal UNCLASSIFIED","{'id': '<UNKNOWN>', 'article': 'TCF Center fraudster Ruby Freeman criminal\n\nRuby Freeman criminal\n', 'fragments': []}"
+175,712_batch_2,"ATTENTION PATRIOTS
+
+MEET YOUR CIVIL WAR OPPONENTS
+","ATTENTION  [i-8] PATRIOTS [o-8] 
+
+MEET YOUR CIVIL WAR OPPONENTS
+","ATTENTION PATRIOTS 
+MEET YOUR CIVIL WAR OPPONENTS ","{'id': '<UNKNOWN>', 'article': 'ATTENTION PATRIOTS\n\nMEET YOUR CIVIL WAR OPPONENTS\n', 'fragments': []}"
+176,714_batch_2,"WHY DO THEY KEEP SAYING RELEASE THE CRACKHEAD? 
+HUNTER ISN'T IN JAIL.
+
+IT'S KRAKEN JOE, AND IF THEY DO WE'RE ALL FUCKED
+
+"," [i-16] WHY DO THEY KEEP SAYING RELEASE THE  [i-8]  [i-10] CRACKHEAD [o-8]  [o-10] ? 
+HUNTER ISN'T IN JAIL.
+
+IT'S  [i-8] KRAKEN [o-8]  JOE, AND IF THEY DO WE'RE ALL  [i-8] FUCKED [o-8]  [o-16] 
+
+","WHY DO THEY KEEP SAYING RELEASE THE CRACKHEAD? 
+HUNTER ISN'T IN JAIL.
+IT'S KRAKEN JOE, AND IF THEY DO WE'RE ALL FUCKED
+
+","{'id': '<UNKNOWN>', 'article': ""WHY DO THEY KEEP SAYING RELEASE THE CRACKHEAD? \nHUNTER ISN'T IN JAIL.\n\nIT'S KRAKEN JOE, AND IF THEY DO WE'RE ALL FUCKED\n\n"", 'fragments': []}"
+177,728_batch_2,THIS MAY CONFUSE DEMOCRATS,THIS MAY CONFUSE DEMOCRATS,THIS MAY CONFUSE DEMOCRATS [i-8] [o-8] ,"{'id': '<UNKNOWN>', 'article': 'THIS MAY CONFUSE DEMOCRATS', 'fragments': []}"
+178,729_batch_2,PEACEFUL TRANSITION,PEACEFUL TRANSITION,PEACEFUL TRANSITION ,"{'id': '<UNKNOWN>', 'article': 'PEACEFUL TRANSITION', 'fragments': []}"
+179,730_batch_2,AND JUST LIKE THAT EVERYONE FORGOTABOUT HIGH RANKING PEDOPHILES,AND JUST LIKE THAT EVERYONE FORGOTABOUT  [i-10] HIGH RANKING  [i-8] PEDOPHILES [o-8]  [o-10] ,AND JUST LIKE THAT EVERYONE FORGOTABOUT HIGH RANKING PEDOPHILES ,"{'id': '<UNKNOWN>', 'article': 'AND JUST LIKE THAT EVERYONE FORGOTABOUT HIGH RANKING PEDOPHILES', 'fragments': []}"
+180,731_batch_2,"WELCOMETO 2020
+
+WHERE SPOILED WHITE DEMOCRATS SCREAM RACIAL SLURS AT BLACK COPS IN THE NAME OF EQUALITY","WELCOMETO 2020
+
+WHERE  [i-8]  [i-10]  [i-16] SPOILED WHITE [o-8]  DEMOCRATS [o-10]   [i-8] SCREAM RACIAL SLURS [o-8]  AT  [i-10] BLACK COPS [o-10]  IN THE NAME OF EQUALITY [o-16] ","WELCOMETO 2020
+WHERE SPOILED WHITE DEMOCRATS SCREAM RACIAL SLURS AT BLACK COPS IN THE NAME OF EQUALITY ","{'id': '<UNKNOWN>', 'article': 'WELCOMETO 2020\n\nWHERE SPOILED WHITE DEMOCRATS SCREAM RACIAL SLURS AT BLACK COPS IN THE NAME OF EQUALITY', 'fragments': []}"
+181,734_batch_2,Every job that puts food on the table is an essential job,Every job that puts food on the table is an  [i-10] essential job [o-10] ,Every job that puts food on the table is an essential job [i-8].,"{'id': '<UNKNOWN>', 'article': 'Every job that puts food on the table is an essential job', 'fragments': []}"
+182,737_batch_2,"The Sheep Says:
+
+Stay in your house you scared little bitches..."," [i-10] The Sheep [o-10]  Says:
+
+Stay in your house you  [i-8]  [i-10] scared little bitches [o-8]  [o-10] ...","The Sheep Says: [i-8] [o-8] 
+Stay in your house you scared little bitches...","{'id': '<UNKNOWN>', 'article': 'The Sheep Says:\n\nStay in your house you scared little bitches...', 'fragments': []}"
+183,739_batch_2,"HOW TRUMP VOTERS FEEL AFTER FINDING OUT THEY WERE CHEATED
+
+NAH, MAN.
+I'M PRETTY FUCKIN FAR FROM OK.","HOW TRUMP VOTERS FEEL AFTER FINDING OUT THEY WERE  [i-8] CHEATED [o-8] 
+
+NAH, MAN.
+I'M PRETTY  [i-8] FUCKIN [o-8]  FAR FROM OK.","HOW TRUMP VOTERS FEEL AFTER FINDING OUT THEY WERE CHEATED 
+NAH, MAN.
+
+I'M PRETTY FUCKIN FAR FROM OK.","{'id': '<UNKNOWN>', 'article': ""HOW TRUMP VOTERS FEEL AFTER FINDING OUT THEY WERE CHEATED\n\nNAH, MAN.\nI'M PRETTY FUCKIN FAR FROM OK."", 'fragments': []}"
+184,742_batch_2,"ASKED TO SPELL ""ORANGE"" 
+SHE SAID ""THE FRUIT, OR THE COLOR?"""," [i-16] ASKED TO SPELL ""ORANGE"" 
+SHE SAID ""THE FRUIT, OR THE COLOR?"" [o-16] ","ASKED TO SPELL ""ORANGE"" 
+
+SHE SAID ""THE FRUIT, OR THE COLOR?""","{'id': '<UNKNOWN>', 'article': 'ASKED TO SPELL ""ORANGE"" \nSHE SAID ""THE FRUIT, OR THE COLOR?""', 'fragments': []}"
+185,743_batch_2,"Dominion's Buy 1, Get 10 Free!","Dominion's Buy 1, Get 10 Free!","Dominion's Buy 1, Get 10 Free!","{'id': '<UNKNOWN>', 'article': ""Dominion's Buy 1, Get 10 Free!"", 'fragments': []}"
+186,745_batch_2,"I love eagles 
+they're so majestic
+","I love eagles 
+they're so  [i-8] majestic [o-8] 
+","  I love eagles   they're so majestic
+","{'id': '<UNKNOWN>', 'article': ""I love eagles \nthey're so majestic\n"", 'fragments': []}"
+187,747_batch_2,"So Don King and BeetleJuice had a baby...
+","So Don King and BeetleJuice had a baby...
+","So Don King and BeetleJuice had a baby...
+","{'id': '<UNKNOWN>', 'article': 'So Don King and BeetleJuice had a baby...\n', 'fragments': []}"
+188,749_batch_2,"ELIZABETH WARREN IS MORE INDIAN THAN YOU ARE
+REPUBLICAN!
+","ELIZABETH WARREN IS MORE INDIAN THAN YOU ARE
+REPUBLICAN!
+","ELIZABETH WARREN IS MORE INDIAN THAN YOU ARE
+REPUBLICAN!
+","{'id': '<UNKNOWN>', 'article': 'ELIZABETH WARREN IS MORE INDIAN THAN YOU ARE\nREPUBLICAN!\n', 'fragments': []}"
+189,751_batch_2,"I'm so happy for you Joe, I got you a present! 
+It's parked outside!
+","I'm so happy for you Joe, I got you a present! 
+It's parked outside!
+","  I'm so happy for you Joe, I got you a present! 
+It's parked outside!
+
+","{'id': '<UNKNOWN>', 'article': ""I'm so happy for you Joe, I got you a present! \nIt's parked outside!\n"", 'fragments': []}"
+190,752_batch_2,"SHE'S TAKING ACTION!
+
+SHE'S TAKING A DUMP
+
+","SHE'S TAKING ACTION!
+
+SHE'S TAKING A  [i-8] DUMP [o-8] 
+
+","SHE'S TAKING ACTION!
+ [o-8] [i-8] [o-10] [i-16]  s TAKING A DUMP
+
+","{'id': '<UNKNOWN>', 'article': ""SHE'S TAKING ACTION!\n\nSHE'S TAKING A DUMP\n\n"", 'fragments': []}"
+191,755_batch_2,"EVERYONE WANTS ME TO READ THE CONSTITUTION
+
+BUT IT'S WRITTEN IN CURSIVE
+"," [i-16] EVERYONE WANTS ME TO READ THE CONSTITUTION
+
+BUT IT'S WRITTEN IN CURSIVE [o-16] 
+","EVERYONE WANTS ME TO READ THE CONSTITUTION
+BUT IT'S WRITTEN IN CURSIVE
+","{'id': '<UNKNOWN>', 'article': ""EVERYONE WANTS ME TO READ THE CONSTITUTION\n\nBUT IT'S WRITTEN IN CURSIVE\n"", 'fragments': []}"
+192,756_batch_2,"It's a pandemic!
+
+It's a Dem panic!
+","It's a pandemic!
+
+It's a  [i-10] Dem panic [o-10] !
+","It's a pandemic!
+ [i-8] [o-10] [o-8] It's a Dem panic!
+","{'id': '<UNKNOWN>', 'article': ""It's a pandemic!\n\nIt's a Dem panic!\n"", 'fragments': []}"
+193,757_batch_2,"WE ARE ALL BORN IGNORANT. 
+BUT ONE MUST WORK HARD TO REMAIN STUPID.
+","WE ARE ALL BORN IGNORANT. 
+BUT ONE MUST WORK HARD TO REMAIN  [i-8] STUPID [o-8] .
+","WE ARE ALL BORN IGNORANT. 
+BUT ONE MUST WORK HARD TO REMAIN STUPID. ","{'id': '<UNKNOWN>', 'article': 'WE ARE ALL BORN IGNORANT. \nBUT ONE MUST WORK HARD TO REMAIN STUPID.\n', 'fragments': []}"
+194,760_batch_2,"WHAT IF I TOLD YOU THERE WERE THOUSANDS OF UNDERCOVER FEDS DOCUMENTING THE FRAUD AND THEY'VE STEPPED INTO A TRAP
+
+","WHAT IF I TOLD YOU THERE WERE THOUSANDS OF UNDERCOVER FEDS DOCUMENTING THE FRAUD AND THEY'VE STEPPED INTO A TRAP
+
+",WHAT IF I TOLD YOU THERE WERE THOUSANDS OF UNDERCOVER FEDS DOCUMENTING THE FRAUD AND THEY'VE STEPPED INTO A TRAP ,"{'id': '<UNKNOWN>', 'article': ""WHAT IF I TOLD YOU THERE WERE THOUSANDS OF UNDERCOVER FEDS DOCUMENTING THE FRAUD AND THEY'VE STEPPED INTO A TRAP\n\n"", 'fragments': []}"
+195,761_batch_2,"Hi Joe, it's me...Cornpop
+","Hi Joe, it's me...Cornpop
+","Hi Joe, it's me...Cornpop
+","{'id': '<UNKNOWN>', 'article': ""Hi Joe, it's me...Cornpop\n"", 'fragments': []}"
+196,762_batch_2,"HE'S MAKING HIS LIST
+
+HE'S CHECKING IT TWICE
+
+Voter fraud
+","HE'S MAKING HIS LIST
+
+HE'S CHECKING IT TWICE
+
+ [i-8] Voter fraud [o-8] 
+","HE'S MAKING HIS LIST [i-8] 
+ He'S CHECKING IT TWICE
+Voter fraud
+","{'id': '<UNKNOWN>', 'article': ""HE'S MAKING HIS LIST\n\nHE'S CHECKING IT TWICE\n\nVoter fraud\n"", 'fragments': []}"
+197,764_batch_2,"PA WHAT'S IRONY MEAN?
+
+IRONY IS WHEN THE LIBERALS INVESTIGATE TRUMP AND DEMOCRATS KEEP GETTING IMPLICATED IN CRIMES.
+","PA WHAT'S IRONY MEAN?
+
+ [i-16] IRONY IS WHEN THE LIBERALS INVESTIGATE TRUMP AND DEMOCRATS KEEP GETTING  [i-8] IMPLICATED IN CRIMES [o-8]  [o-16] .
+","PA WHAT'S IRONY MEAN?
+IRONY IS WHEN THE LIBERALS INVESTIGATE TRUMP AND DEMOCRATS KEEP GETTING IMPLICATED IN CRIMES.
+","{'id': '<UNKNOWN>', 'article': ""PA WHAT'S IRONY MEAN?\n\nIRONY IS WHEN THE LIBERALS INVESTIGATE TRUMP AND DEMOCRATS KEEP GETTING IMPLICATED IN CRIMES.\n"", 'fragments': []}"
+198,768_batch_2,"Girlfriend Keeps Referring To Herself As 'Wife-Elect' Despite No Official Word From Boyfriend
+"," [i-16] Girlfriend Keeps Referring To Herself As 'Wife-Elect' Despite No Official Word From Boyfriend [o-16] 
+",Girlfriend Keeps Referring To Herself As 'Wife-Elect' Despite No Official Word From Boyfriend ,"{'id': '<UNKNOWN>', 'article': ""Girlfriend Keeps Referring To Herself As 'Wife-Elect' Despite No Official Word From Boyfriend\n"", 'fragments': []}"
+199,769_batch_2,"9 ""LEGAL VOTES"" LEFT TO BE COUNTED
+","9 ""LEGAL VOTES"" LEFT TO BE COUNTED
+","9 ""LEGAL VOTES"" LEFT TO BE COUNTED ","{'id': '<UNKNOWN>', 'article': '9 ""LEGAL VOTES"" LEFT TO BE COUNTED\n', 'fragments': []}"

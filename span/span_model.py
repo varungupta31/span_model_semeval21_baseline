@@ -95,43 +95,6 @@ class SpanModel(Seq2SeqModel):
         else:
             self.model.decoder.resize_token_embeddings(len_decoder_tokenizer)
 
-
-    def train_model(self, train_data, output_dir=None, show_running_loss=True, random_mask=0.0,
-        args=None, eval_data=None, verbose=True, **kwargs):
-        """
-        args:
-            train_data: list of dictionaries with keys ['id', 'article', 'fragments'],
-               where 'fragments' is a list of `Fragment` dataclass objects.
-            eval_data: same structure as train_data
-        """
-        pprint(args)
-        if random_mask > 0.0:
-            import copy
-            tmp_args = copy.deepcopy(args)
-            # First we prime with unmasked data
-            tmp_args['num_train_epochs'] = 2
-            logger.info("Train 2 episodes without mask")
-            train_data_df = span_data_to_dataframe(train_data, self.labels, random_mask=0.0)
-            eval_data_df = span_data_to_dataframe(eval_data, self.labels, random_mask=0.0)
-            super().train_model(train_data_df, output_dir=output_dir, show_running_loss=show_running_loss,
-                                args=tmp_args, eval_data=eval_data_df, verbose=verbose, **kwargs)
-
-            logger.info("Train 3 * 5 episodes with different masks")
-            for _ in range(3):
-                train_data_df = span_data_to_dataframe(train_data, self.labels, random_mask=random_mask)
-                eval_data_df = span_data_to_dataframe(eval_data, self.labels, random_mask=random_mask)
-                tmp_args['num_train_epochs'] = 5
-                super().train_model(train_data_df, output_dir=output_dir,
-                                    show_running_loss=show_running_loss,
-                                    args=tmp_args, eval_data=eval_data_df, verbose=verbose, **kwargs)
-
-        #///logger.info(f"Regular training for {args['num_train_epochs']}")
-        train_data_df = span_data_to_dataframe(train_data, self.labels, random_mask=0.0)
-        eval_data_df = span_data_to_dataframe(eval_data, self.labels, random_mask=0.0)
-        super().train_model(train_data_df, output_dir=output_dir, show_running_loss=show_running_loss,
-                            args=args, eval_data=eval_data_df, verbose=verbose, **kwargs)
-
-
     def eval_model(self, eval_data, output_dir=None, verbose=True, report='original', analyse=False, silent=False, **kwargs):
         """
 
@@ -162,6 +125,53 @@ class SpanModel(Seq2SeqModel):
             return res_for_script
         else:
             raise ValueError(f'Invalid argument report="{report}"')
+
+    def train_model(self, train_data, output_dir=None, show_running_loss=True, random_mask=0.0,
+        args=None, eval_data=None, verbose=True, **kwargs):
+        """
+        args:
+            train_data: list of dictionaries with keys ['id', 'article', 'fragments'],
+               where 'fragments' is a list of `Fragment` dataclass objects.
+            eval_data: same structure as train_data
+        """
+        pprint(args)
+        def count_matches(labels, preds):
+            print(labels)
+            print(preds)
+            return sum(
+                [
+                    1 if label == pred else 0
+                    for label, pred in zip(labels, preds)
+                ]
+            )
+        if random_mask > 0.0:
+            import copy
+            tmp_args = copy.deepcopy(args)
+            # First we prime with unmasked data
+            tmp_args['num_train_epochs'] = 2
+            logger.info("Train 2 episodes without mask")
+            train_data_df = span_data_to_dataframe(train_data, self.labels, random_mask=0.0)
+            eval_data_df = span_data_to_dataframe(eval_data, self.labels, random_mask=0.0)
+            super().train_model(train_data_df, output_dir=output_dir, show_running_loss=show_running_loss,
+                                args=tmp_args, eval_data=eval_data_df, verbose=verbose, **kwargs)
+
+            logger.info("Train 3 * 5 episodes with different masks")
+            for _ in range(3):
+                train_data_df = span_data_to_dataframe(train_data, self.labels, random_mask=random_mask)
+                eval_data_df = span_data_to_dataframe(eval_data, self.labels, random_mask=random_mask)
+                tmp_args['num_train_epochs'] = 5
+                super().train_model(train_data_df, output_dir=output_dir,
+                                    show_running_loss=show_running_loss,
+                                    args=tmp_args, eval_data=eval_data_df, verbose=verbose, **kwargs)
+
+        #///logger.info(f"Regular training for {args['num_train_epochs']}")
+        train_data_df = span_data_to_dataframe(train_data, self.labels, random_mask=0.0)
+        eval_data_df = span_data_to_dataframe(eval_data, self.labels, random_mask=0.0)
+        super().train_model(train_data_df, output_dir=output_dir, show_running_loss=show_running_loss,
+                            args=args, eval_data=eval_data_df, verbose=verbose, **kwargs)
+
+
+    
 
     def predict(self, to_predict):
         predictions = super().predict(to_predict)

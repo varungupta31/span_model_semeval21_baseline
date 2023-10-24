@@ -235,7 +235,6 @@ def train_ptc_2020(model, args={}):
 
     model.train_model(train_data_2020, eval_data=eval_data_2020, args=args)
 
-
 def train_memes_2021(model, args={}):
     # 2021 'meme' data
     training_set_task2 = 'training_set_task2.txt'
@@ -251,7 +250,7 @@ def train_memes_2021(model, args={}):
 
     print("EVAL DATA 2021")
     pprint(data_overview(eval_data_2021))
-
+    
     model.train_model(train_data_2021, eval_data=eval_data_2021, random_mask=0.0, args=args)
 
 
@@ -295,13 +294,17 @@ if __name__ == '__main__':
         )
         model = get_model('bart', 'facebook/bart-base', args=args)
         train_ptc_2020(model, args=args)
-
+######################################
+# evaluate_during_training=True,
+# evaluate_during_training_verbose=True,
     if WITH_TRAINING_2021:
         args = dict(
-            num_train_epochs=30,
+            num_train_epochs=50,
             overwrite_output_dir=True,
-            output_dir='/ssd_scratch/cvit/varun/models_trained/'
-        )
+            output_dir='/ssd_scratch/cvit/varun/models_trained/',
+            learning_rate=3e-5,
+            train_batch_size=16,
+            wandb_project="pursuade")
         if WITH_TRAINING_2020:
             model_path = 'ptc_2020'
         else:
@@ -319,7 +322,7 @@ if __name__ == '__main__':
         top_k=0,  # Set to 0
         do_sample=True
     )
-    model = get_model('bart', 'memes_2021', split_in_sentences=True, args=generation_args)
+    model = get_model('bart', '/ssd_scratch/cvit/varun/models_trained/', split_in_sentences=True, args=generation_args)
 
     #training data filename.
     test_set_task2_filename = 'test_set_task2.txt'
@@ -329,9 +332,8 @@ if __name__ == '__main__':
 
     test_data_2021 = loadJSON2021(test_set_task2_filename)
 
-    print(model.eval_model(test_data_2021, report='flc', analyse=True))
+    print(model.eval_model(test_data_2021, report='original', analyse=True))
 
-"""
     sentences = [d['article'] for d in test_data_2021]
     outcome = model.predict(sentences)
 
@@ -347,13 +349,9 @@ if __name__ == '__main__':
         d['labels'] = labels
         res.append(d)
 
-    predict_file = 'task2_prediction.txt'
+    predict_file = 'task2_prediction.json'
     print(f'Writing outcome to "{predict_file}"')
     pprint(res)
     with open(predict_file, 'w', encoding='utf8') as f:
         json.dump(res, f, indent=4, ensure_ascii=False)
-"""
-
-
-
 
